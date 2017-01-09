@@ -12,10 +12,18 @@
 
 char *voc_names[] = {"aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"};
 
-void train_yolo(char *cfgfile, char *weightfile)
+void train_yolo(char *cfgfile, char *weightfile, char* trainImgFile, char* backupDir)
 {
     char *train_images = "/data/voc/train.txt";
     char *backup_directory = "/home/pjreddie/backup/";
+
+    if (trainImgFile != NULL)
+        train_images = trainImgFile;
+
+    if (backupDir != NULL)
+        backup_directory = backupDir;
+
+
     srand(time(0));
     char *base = basecfg(cfgfile);
     printf("%s\n", base);
@@ -348,7 +356,7 @@ void run_yolo(int argc, char **argv)
     char *weights = (argc > 4) ? argv[4] : 0;
     char *filename = (argc > 5) ? argv[5]: 0;
     if(0==strcmp(argv[2], "test")) test_yolo(cfg, weights, filename, thresh);
-    else if(0==strcmp(argv[2], "train")) train_yolo(cfg, weights);
+    else if(0==strcmp(argv[2], "train")) train_yolo(cfg, weights, NULL, NULL);
     else if(0==strcmp(argv[2], "valid")) validate_yolo(cfg, weights);
     else if(0==strcmp(argv[2], "recall")) validate_yolo_recall(cfg, weights);
     else if(0==strcmp(argv[2], "demo")) demo(cfg, weights, thresh, cam_index, filename, voc_names, 20, frame_skip, prefix, .5);
