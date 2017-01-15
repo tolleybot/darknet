@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/don/Applications/clion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/don/Applications/clion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Don/Documents/Projects/darknetmain/darknet
+CMAKE_SOURCE_DIR = /home/don/Documents/Projects/darknet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/don/Documents/Projects/darknet/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/don/Applications/clion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/don/Applications/clion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1392,6 +1392,33 @@ src/rnn_vid.c.s:
 	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/rnn_vid.c.s
 .PHONY : src/rnn_vid.c.s
 
+src/round.o: src/round.c.o
+
+.PHONY : src/round.o
+
+# target to build an object file
+src/round.c.o:
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/round.c.o
+.PHONY : src/round.c.o
+
+src/round.i: src/round.c.i
+
+.PHONY : src/round.i
+
+# target to preprocess a source file
+src/round.c.i:
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/round.c.i
+.PHONY : src/round.c.i
+
+src/round.s: src/round.c.s
+
+.PHONY : src/round.s
+
+# target to generate assembly for a file
+src/round.c.s:
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/round.c.s
+.PHONY : src/round.c.s
+
 src/route_layer.o: src/route_layer.c.o
 
 .PHONY : src/route_layer.o
@@ -1839,6 +1866,9 @@ help:
 	@echo "... src/rnn_vid.o"
 	@echo "... src/rnn_vid.i"
 	@echo "... src/rnn_vid.s"
+	@echo "... src/round.o"
+	@echo "... src/round.i"
+	@echo "... src/round.s"
 	@echo "... src/route_layer.o"
 	@echo "... src/route_layer.i"
 	@echo "... src/route_layer.s"

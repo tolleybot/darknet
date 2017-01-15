@@ -18,6 +18,8 @@ cfg/
 darknet
 .fuse*
 .idea/
+cmake-build-debug/
+cmake-build-release/
 
 # OS Generated #
 .DS_Store*

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/don/Applications/clion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/don/Applications/clion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Don/Documents/Projects/darknetmain/darknet
+CMAKE_SOURCE_DIR = /home/don/Documents/Projects/darknet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/don/Documents/Projects/darknet/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/darknet.dir/depend.make
@@ -57,18 +57,1551 @@ include CMakeFiles/darknet.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/darknet.dir/flags.make
 
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: ../src/activation_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: ../src/activations.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o: ../src/activation_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_activation_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_activation_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/activations.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/avgpool_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/avgpool_layer_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/box.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/data.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/image.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/list.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/matrix.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/network.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/tree.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/pthread.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o: ../src/avgpool_layer_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_avgpool_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_avgpool_layer_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: ../src/blas.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: ../src/blas_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: ../src/list.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: ../src/utils.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o: ../src/blas_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_blas_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_blas_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: ../src/col2im.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: ../src/col2im_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o: ../src/col2im_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_col2im_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_col2im_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/activations.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/batchnorm_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/blas.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/box.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/col2im.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/convolutional_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/convolutional_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/data.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/gemm.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/im2col.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/image.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/list.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/matrix.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/network.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/tree.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/utils.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/pthread.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o: ../src/convolutional_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_convolutional_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_convolutional_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/activations.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/box.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/crop_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/crop_layer_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/data.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/image.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/list.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/matrix.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/network.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/tree.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/utils.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/pthread.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o: ../src/crop_layer_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_crop_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_crop_layer_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/activations.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/blas.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/box.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/col2im.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/convolutional_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/data.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/deconvolutional_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/deconvolutional_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/gemm.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/im2col.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/image.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/list.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/matrix.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/network.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/tree.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/utils.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/pthread.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o: ../src/deconvolutional_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_deconvolutional_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_deconvolutional_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/activations.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/box.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/data.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/dropout_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/dropout_layer_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/image.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/list.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/matrix.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/network.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/tree.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/utils.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/pthread.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o: ../src/dropout_layer_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_dropout_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_dropout_layer_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: ../src/im2col.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: ../src/im2col_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o: ../src/im2col_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_im2col_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_im2col_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/activations.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/box.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/data.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/image.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/list.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/matrix.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/maxpool_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/maxpool_layer_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/network.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/tree.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/pthread.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o: ../src/maxpool_layer_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_maxpool_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_maxpool_layer_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o.Debug.cmake
+
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/activation_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/activations.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/avgpool_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/batchnorm_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/blas.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/box.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/connected_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/convolutional_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/cost_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/crnn_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/crop_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/cuda.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/data.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/detection_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/dropout_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/gru_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/image.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/list.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/local_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/matrix.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/maxpool_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/network.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/network_kernels.cu
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/normalization_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/parser.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/region_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/reorg_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/rnn_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/route_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/shortcut_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/softmax_layer.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/tree.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/utils.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/_G_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/alloca.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/assert.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/features.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/libio.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/linux/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/math.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/pthread.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/stdio.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/stdlib.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/string.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/wchar.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/include/xlocale.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/builtin_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/channel_descriptor.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/common_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/cuComplex.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/cublas_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/cublas_v2.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/cuda_runtime.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/curand.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/device_double_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/device_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/device_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/device_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/driver_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/driver_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/host_config.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/host_defines.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/library_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/math_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/math_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/surface_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/surface_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/texture_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/vector_functions.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/vector_functions.hpp
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: /usr/local/cuda/include/vector_types.h
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o.Debug.cmake
+CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o: ../src/network_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building NVCC (Device) object CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o"
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -E make_directory /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/.
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src && /home/don/Applications/clion/bin/cmake/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_network_kernels.cu.o -D generated_cubin_file:STRING=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/./darknet_generated_network_kernels.cu.o.cubin.txt -P /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o.Debug.cmake
+
 CMakeFiles/darknet.dir/src/activation_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/activation_layer.c.o: ../src/activation_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/darknet.dir/src/activation_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/activation_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/activation_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/darknet.dir/src/activation_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/activation_layer.c.o   -c /home/don/Documents/Projects/darknet/src/activation_layer.c
 
 CMakeFiles/darknet.dir/src/activation_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/activation_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/activation_layer.c > CMakeFiles/darknet.dir/src/activation_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/activation_layer.c > CMakeFiles/darknet.dir/src/activation_layer.c.i
 
 CMakeFiles/darknet.dir/src/activation_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/activation_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/activation_layer.c -o CMakeFiles/darknet.dir/src/activation_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/activation_layer.c -o CMakeFiles/darknet.dir/src/activation_layer.c.s
 
 CMakeFiles/darknet.dir/src/activation_layer.c.o.requires:
 
@@ -83,16 +1616,16 @@ CMakeFiles/darknet.dir/src/activation_layer.c.o.provides.build: CMakeFiles/darkn
 
 CMakeFiles/darknet.dir/src/activations.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/activations.c.o: ../src/activations.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/darknet.dir/src/activations.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/activations.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/activations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/darknet.dir/src/activations.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/activations.c.o   -c /home/don/Documents/Projects/darknet/src/activations.c
 
 CMakeFiles/darknet.dir/src/activations.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/activations.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/activations.c > CMakeFiles/darknet.dir/src/activations.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/activations.c > CMakeFiles/darknet.dir/src/activations.c.i
 
 CMakeFiles/darknet.dir/src/activations.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/activations.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/activations.c -o CMakeFiles/darknet.dir/src/activations.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/activations.c -o CMakeFiles/darknet.dir/src/activations.c.s
 
 CMakeFiles/darknet.dir/src/activations.c.o.requires:
 
@@ -107,16 +1640,16 @@ CMakeFiles/darknet.dir/src/activations.c.o.provides.build: CMakeFiles/darknet.di
 
 CMakeFiles/darknet.dir/src/art.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/art.c.o: ../src/art.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/darknet.dir/src/art.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/art.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/art.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/darknet.dir/src/art.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/art.c.o   -c /home/don/Documents/Projects/darknet/src/art.c
 
 CMakeFiles/darknet.dir/src/art.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/art.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/art.c > CMakeFiles/darknet.dir/src/art.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/art.c > CMakeFiles/darknet.dir/src/art.c.i
 
 CMakeFiles/darknet.dir/src/art.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/art.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/art.c -o CMakeFiles/darknet.dir/src/art.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/art.c -o CMakeFiles/darknet.dir/src/art.c.s
 
 CMakeFiles/darknet.dir/src/art.c.o.requires:
 
@@ -131,16 +1664,16 @@ CMakeFiles/darknet.dir/src/art.c.o.provides.build: CMakeFiles/darknet.dir/src/ar
 
 CMakeFiles/darknet.dir/src/avgpool_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/avgpool_layer.c.o: ../src/avgpool_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/darknet.dir/src/avgpool_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/avgpool_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/avgpool_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/darknet.dir/src/avgpool_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/avgpool_layer.c.o   -c /home/don/Documents/Projects/darknet/src/avgpool_layer.c
 
 CMakeFiles/darknet.dir/src/avgpool_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/avgpool_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/avgpool_layer.c > CMakeFiles/darknet.dir/src/avgpool_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/avgpool_layer.c > CMakeFiles/darknet.dir/src/avgpool_layer.c.i
 
 CMakeFiles/darknet.dir/src/avgpool_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/avgpool_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/avgpool_layer.c -o CMakeFiles/darknet.dir/src/avgpool_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/avgpool_layer.c -o CMakeFiles/darknet.dir/src/avgpool_layer.c.s
 
 CMakeFiles/darknet.dir/src/avgpool_layer.c.o.requires:
 
@@ -155,16 +1688,16 @@ CMakeFiles/darknet.dir/src/avgpool_layer.c.o.provides.build: CMakeFiles/darknet.
 
 CMakeFiles/darknet.dir/src/batchnorm_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/batchnorm_layer.c.o: ../src/batchnorm_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/darknet.dir/src/batchnorm_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/batchnorm_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/batchnorm_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/darknet.dir/src/batchnorm_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/batchnorm_layer.c.o   -c /home/don/Documents/Projects/darknet/src/batchnorm_layer.c
 
 CMakeFiles/darknet.dir/src/batchnorm_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/batchnorm_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/batchnorm_layer.c > CMakeFiles/darknet.dir/src/batchnorm_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/batchnorm_layer.c > CMakeFiles/darknet.dir/src/batchnorm_layer.c.i
 
 CMakeFiles/darknet.dir/src/batchnorm_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/batchnorm_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/batchnorm_layer.c -o CMakeFiles/darknet.dir/src/batchnorm_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/batchnorm_layer.c -o CMakeFiles/darknet.dir/src/batchnorm_layer.c.s
 
 CMakeFiles/darknet.dir/src/batchnorm_layer.c.o.requires:
 
@@ -179,16 +1712,16 @@ CMakeFiles/darknet.dir/src/batchnorm_layer.c.o.provides.build: CMakeFiles/darkne
 
 CMakeFiles/darknet.dir/src/blas.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/blas.c.o: ../src/blas.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/darknet.dir/src/blas.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/blas.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/blas.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/darknet.dir/src/blas.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/blas.c.o   -c /home/don/Documents/Projects/darknet/src/blas.c
 
 CMakeFiles/darknet.dir/src/blas.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/blas.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/blas.c > CMakeFiles/darknet.dir/src/blas.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/blas.c > CMakeFiles/darknet.dir/src/blas.c.i
 
 CMakeFiles/darknet.dir/src/blas.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/blas.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/blas.c -o CMakeFiles/darknet.dir/src/blas.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/blas.c -o CMakeFiles/darknet.dir/src/blas.c.s
 
 CMakeFiles/darknet.dir/src/blas.c.o.requires:
 
@@ -203,16 +1736,16 @@ CMakeFiles/darknet.dir/src/blas.c.o.provides.build: CMakeFiles/darknet.dir/src/b
 
 CMakeFiles/darknet.dir/src/box.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/box.c.o: ../src/box.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/darknet.dir/src/box.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/box.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/box.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/darknet.dir/src/box.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/box.c.o   -c /home/don/Documents/Projects/darknet/src/box.c
 
 CMakeFiles/darknet.dir/src/box.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/box.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/box.c > CMakeFiles/darknet.dir/src/box.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/box.c > CMakeFiles/darknet.dir/src/box.c.i
 
 CMakeFiles/darknet.dir/src/box.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/box.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/box.c -o CMakeFiles/darknet.dir/src/box.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/box.c -o CMakeFiles/darknet.dir/src/box.c.s
 
 CMakeFiles/darknet.dir/src/box.c.o.requires:
 
@@ -227,16 +1760,16 @@ CMakeFiles/darknet.dir/src/box.c.o.provides.build: CMakeFiles/darknet.dir/src/bo
 
 CMakeFiles/darknet.dir/src/captcha.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/captcha.c.o: ../src/captcha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/darknet.dir/src/captcha.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/captcha.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/captcha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/darknet.dir/src/captcha.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/captcha.c.o   -c /home/don/Documents/Projects/darknet/src/captcha.c
 
 CMakeFiles/darknet.dir/src/captcha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/captcha.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/captcha.c > CMakeFiles/darknet.dir/src/captcha.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/captcha.c > CMakeFiles/darknet.dir/src/captcha.c.i
 
 CMakeFiles/darknet.dir/src/captcha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/captcha.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/captcha.c -o CMakeFiles/darknet.dir/src/captcha.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/captcha.c -o CMakeFiles/darknet.dir/src/captcha.c.s
 
 CMakeFiles/darknet.dir/src/captcha.c.o.requires:
 
@@ -251,16 +1784,16 @@ CMakeFiles/darknet.dir/src/captcha.c.o.provides.build: CMakeFiles/darknet.dir/sr
 
 CMakeFiles/darknet.dir/src/cifar.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/cifar.c.o: ../src/cifar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/darknet.dir/src/cifar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/cifar.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/cifar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/darknet.dir/src/cifar.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/cifar.c.o   -c /home/don/Documents/Projects/darknet/src/cifar.c
 
 CMakeFiles/darknet.dir/src/cifar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/cifar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/cifar.c > CMakeFiles/darknet.dir/src/cifar.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/cifar.c > CMakeFiles/darknet.dir/src/cifar.c.i
 
 CMakeFiles/darknet.dir/src/cifar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/cifar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/cifar.c -o CMakeFiles/darknet.dir/src/cifar.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/cifar.c -o CMakeFiles/darknet.dir/src/cifar.c.s
 
 CMakeFiles/darknet.dir/src/cifar.c.o.requires:
 
@@ -275,16 +1808,16 @@ CMakeFiles/darknet.dir/src/cifar.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/classifier.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/classifier.c.o: ../src/classifier.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/darknet.dir/src/classifier.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/classifier.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/classifier.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/darknet.dir/src/classifier.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/classifier.c.o   -c /home/don/Documents/Projects/darknet/src/classifier.c
 
 CMakeFiles/darknet.dir/src/classifier.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/classifier.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/classifier.c > CMakeFiles/darknet.dir/src/classifier.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/classifier.c > CMakeFiles/darknet.dir/src/classifier.c.i
 
 CMakeFiles/darknet.dir/src/classifier.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/classifier.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/classifier.c -o CMakeFiles/darknet.dir/src/classifier.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/classifier.c -o CMakeFiles/darknet.dir/src/classifier.c.s
 
 CMakeFiles/darknet.dir/src/classifier.c.o.requires:
 
@@ -299,16 +1832,16 @@ CMakeFiles/darknet.dir/src/classifier.c.o.provides.build: CMakeFiles/darknet.dir
 
 CMakeFiles/darknet.dir/src/coco.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/coco.c.o: ../src/coco.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/darknet.dir/src/coco.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/coco.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/coco.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/darknet.dir/src/coco.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/coco.c.o   -c /home/don/Documents/Projects/darknet/src/coco.c
 
 CMakeFiles/darknet.dir/src/coco.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/coco.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/coco.c > CMakeFiles/darknet.dir/src/coco.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/coco.c > CMakeFiles/darknet.dir/src/coco.c.i
 
 CMakeFiles/darknet.dir/src/coco.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/coco.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/coco.c -o CMakeFiles/darknet.dir/src/coco.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/coco.c -o CMakeFiles/darknet.dir/src/coco.c.s
 
 CMakeFiles/darknet.dir/src/coco.c.o.requires:
 
@@ -323,16 +1856,16 @@ CMakeFiles/darknet.dir/src/coco.c.o.provides.build: CMakeFiles/darknet.dir/src/c
 
 CMakeFiles/darknet.dir/src/col2im.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/col2im.c.o: ../src/col2im.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/darknet.dir/src/col2im.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/col2im.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/col2im.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/darknet.dir/src/col2im.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/col2im.c.o   -c /home/don/Documents/Projects/darknet/src/col2im.c
 
 CMakeFiles/darknet.dir/src/col2im.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/col2im.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/col2im.c > CMakeFiles/darknet.dir/src/col2im.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/col2im.c > CMakeFiles/darknet.dir/src/col2im.c.i
 
 CMakeFiles/darknet.dir/src/col2im.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/col2im.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/col2im.c -o CMakeFiles/darknet.dir/src/col2im.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/col2im.c -o CMakeFiles/darknet.dir/src/col2im.c.s
 
 CMakeFiles/darknet.dir/src/col2im.c.o.requires:
 
@@ -347,16 +1880,16 @@ CMakeFiles/darknet.dir/src/col2im.c.o.provides.build: CMakeFiles/darknet.dir/src
 
 CMakeFiles/darknet.dir/src/compare.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/compare.c.o: ../src/compare.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/darknet.dir/src/compare.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/compare.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/compare.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/darknet.dir/src/compare.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/compare.c.o   -c /home/don/Documents/Projects/darknet/src/compare.c
 
 CMakeFiles/darknet.dir/src/compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/compare.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/compare.c > CMakeFiles/darknet.dir/src/compare.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/compare.c > CMakeFiles/darknet.dir/src/compare.c.i
 
 CMakeFiles/darknet.dir/src/compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/compare.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/compare.c -o CMakeFiles/darknet.dir/src/compare.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/compare.c -o CMakeFiles/darknet.dir/src/compare.c.s
 
 CMakeFiles/darknet.dir/src/compare.c.o.requires:
 
@@ -371,16 +1904,16 @@ CMakeFiles/darknet.dir/src/compare.c.o.provides.build: CMakeFiles/darknet.dir/sr
 
 CMakeFiles/darknet.dir/src/connected_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/connected_layer.c.o: ../src/connected_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/darknet.dir/src/connected_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/connected_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/connected_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/darknet.dir/src/connected_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/connected_layer.c.o   -c /home/don/Documents/Projects/darknet/src/connected_layer.c
 
 CMakeFiles/darknet.dir/src/connected_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/connected_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/connected_layer.c > CMakeFiles/darknet.dir/src/connected_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/connected_layer.c > CMakeFiles/darknet.dir/src/connected_layer.c.i
 
 CMakeFiles/darknet.dir/src/connected_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/connected_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/connected_layer.c -o CMakeFiles/darknet.dir/src/connected_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/connected_layer.c -o CMakeFiles/darknet.dir/src/connected_layer.c.s
 
 CMakeFiles/darknet.dir/src/connected_layer.c.o.requires:
 
@@ -395,16 +1928,16 @@ CMakeFiles/darknet.dir/src/connected_layer.c.o.provides.build: CMakeFiles/darkne
 
 CMakeFiles/darknet.dir/src/convolutional_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/convolutional_layer.c.o: ../src/convolutional_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/darknet.dir/src/convolutional_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/convolutional_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/convolutional_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/darknet.dir/src/convolutional_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/convolutional_layer.c.o   -c /home/don/Documents/Projects/darknet/src/convolutional_layer.c
 
 CMakeFiles/darknet.dir/src/convolutional_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/convolutional_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/convolutional_layer.c > CMakeFiles/darknet.dir/src/convolutional_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/convolutional_layer.c > CMakeFiles/darknet.dir/src/convolutional_layer.c.i
 
 CMakeFiles/darknet.dir/src/convolutional_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/convolutional_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/convolutional_layer.c -o CMakeFiles/darknet.dir/src/convolutional_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/convolutional_layer.c -o CMakeFiles/darknet.dir/src/convolutional_layer.c.s
 
 CMakeFiles/darknet.dir/src/convolutional_layer.c.o.requires:
 
@@ -419,16 +1952,16 @@ CMakeFiles/darknet.dir/src/convolutional_layer.c.o.provides.build: CMakeFiles/da
 
 CMakeFiles/darknet.dir/src/cost_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/cost_layer.c.o: ../src/cost_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/darknet.dir/src/cost_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/cost_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/cost_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/darknet.dir/src/cost_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/cost_layer.c.o   -c /home/don/Documents/Projects/darknet/src/cost_layer.c
 
 CMakeFiles/darknet.dir/src/cost_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/cost_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/cost_layer.c > CMakeFiles/darknet.dir/src/cost_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/cost_layer.c > CMakeFiles/darknet.dir/src/cost_layer.c.i
 
 CMakeFiles/darknet.dir/src/cost_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/cost_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/cost_layer.c -o CMakeFiles/darknet.dir/src/cost_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/cost_layer.c -o CMakeFiles/darknet.dir/src/cost_layer.c.s
 
 CMakeFiles/darknet.dir/src/cost_layer.c.o.requires:
 
@@ -443,16 +1976,16 @@ CMakeFiles/darknet.dir/src/cost_layer.c.o.provides.build: CMakeFiles/darknet.dir
 
 CMakeFiles/darknet.dir/src/crnn_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/crnn_layer.c.o: ../src/crnn_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/darknet.dir/src/crnn_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/crnn_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/crnn_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/darknet.dir/src/crnn_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/crnn_layer.c.o   -c /home/don/Documents/Projects/darknet/src/crnn_layer.c
 
 CMakeFiles/darknet.dir/src/crnn_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/crnn_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/crnn_layer.c > CMakeFiles/darknet.dir/src/crnn_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/crnn_layer.c > CMakeFiles/darknet.dir/src/crnn_layer.c.i
 
 CMakeFiles/darknet.dir/src/crnn_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/crnn_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/crnn_layer.c -o CMakeFiles/darknet.dir/src/crnn_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/crnn_layer.c -o CMakeFiles/darknet.dir/src/crnn_layer.c.s
 
 CMakeFiles/darknet.dir/src/crnn_layer.c.o.requires:
 
@@ -467,16 +2000,16 @@ CMakeFiles/darknet.dir/src/crnn_layer.c.o.provides.build: CMakeFiles/darknet.dir
 
 CMakeFiles/darknet.dir/src/crop_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/crop_layer.c.o: ../src/crop_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/darknet.dir/src/crop_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/crop_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/crop_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/darknet.dir/src/crop_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/crop_layer.c.o   -c /home/don/Documents/Projects/darknet/src/crop_layer.c
 
 CMakeFiles/darknet.dir/src/crop_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/crop_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/crop_layer.c > CMakeFiles/darknet.dir/src/crop_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/crop_layer.c > CMakeFiles/darknet.dir/src/crop_layer.c.i
 
 CMakeFiles/darknet.dir/src/crop_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/crop_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/crop_layer.c -o CMakeFiles/darknet.dir/src/crop_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/crop_layer.c -o CMakeFiles/darknet.dir/src/crop_layer.c.s
 
 CMakeFiles/darknet.dir/src/crop_layer.c.o.requires:
 
@@ -491,16 +2024,16 @@ CMakeFiles/darknet.dir/src/crop_layer.c.o.provides.build: CMakeFiles/darknet.dir
 
 CMakeFiles/darknet.dir/src/cuda.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/cuda.c.o: ../src/cuda.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/darknet.dir/src/cuda.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/cuda.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/cuda.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/darknet.dir/src/cuda.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/cuda.c.o   -c /home/don/Documents/Projects/darknet/src/cuda.c
 
 CMakeFiles/darknet.dir/src/cuda.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/cuda.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/cuda.c > CMakeFiles/darknet.dir/src/cuda.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/cuda.c > CMakeFiles/darknet.dir/src/cuda.c.i
 
 CMakeFiles/darknet.dir/src/cuda.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/cuda.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/cuda.c -o CMakeFiles/darknet.dir/src/cuda.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/cuda.c -o CMakeFiles/darknet.dir/src/cuda.c.s
 
 CMakeFiles/darknet.dir/src/cuda.c.o.requires:
 
@@ -515,16 +2048,16 @@ CMakeFiles/darknet.dir/src/cuda.c.o.provides.build: CMakeFiles/darknet.dir/src/c
 
 CMakeFiles/darknet.dir/src/darknet.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/darknet.c.o: ../src/darknet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/darknet.dir/src/darknet.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/darknet.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/darknet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/darknet.dir/src/darknet.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/darknet.c.o   -c /home/don/Documents/Projects/darknet/src/darknet.c
 
 CMakeFiles/darknet.dir/src/darknet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/darknet.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/darknet.c > CMakeFiles/darknet.dir/src/darknet.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/darknet.c > CMakeFiles/darknet.dir/src/darknet.c.i
 
 CMakeFiles/darknet.dir/src/darknet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/darknet.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/darknet.c -o CMakeFiles/darknet.dir/src/darknet.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/darknet.c -o CMakeFiles/darknet.dir/src/darknet.c.s
 
 CMakeFiles/darknet.dir/src/darknet.c.o.requires:
 
@@ -539,16 +2072,16 @@ CMakeFiles/darknet.dir/src/darknet.c.o.provides.build: CMakeFiles/darknet.dir/sr
 
 CMakeFiles/darknet.dir/src/data.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/data.c.o: ../src/data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/darknet.dir/src/data.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/data.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/darknet.dir/src/data.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/data.c.o   -c /home/don/Documents/Projects/darknet/src/data.c
 
 CMakeFiles/darknet.dir/src/data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/data.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/data.c > CMakeFiles/darknet.dir/src/data.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/data.c > CMakeFiles/darknet.dir/src/data.c.i
 
 CMakeFiles/darknet.dir/src/data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/data.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/data.c -o CMakeFiles/darknet.dir/src/data.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/data.c -o CMakeFiles/darknet.dir/src/data.c.s
 
 CMakeFiles/darknet.dir/src/data.c.o.requires:
 
@@ -563,16 +2096,16 @@ CMakeFiles/darknet.dir/src/data.c.o.provides.build: CMakeFiles/darknet.dir/src/d
 
 CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o: ../src/deconvolutional_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/deconvolutional_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o   -c /home/don/Documents/Projects/darknet/src/deconvolutional_layer.c
 
 CMakeFiles/darknet.dir/src/deconvolutional_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/deconvolutional_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/deconvolutional_layer.c > CMakeFiles/darknet.dir/src/deconvolutional_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/deconvolutional_layer.c > CMakeFiles/darknet.dir/src/deconvolutional_layer.c.i
 
 CMakeFiles/darknet.dir/src/deconvolutional_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/deconvolutional_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/deconvolutional_layer.c -o CMakeFiles/darknet.dir/src/deconvolutional_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/deconvolutional_layer.c -o CMakeFiles/darknet.dir/src/deconvolutional_layer.c.s
 
 CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o.requires:
 
@@ -585,18 +2118,42 @@ CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o.provides: CMakeFiles/darkne
 CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o.provides.build: CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o
 
 
+CMakeFiles/darknet.dir/src/demo.c.o: CMakeFiles/darknet.dir/flags.make
+CMakeFiles/darknet.dir/src/demo.c.o: ../src/demo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/darknet.dir/src/demo.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/demo.c.o   -c /home/don/Documents/Projects/darknet/src/demo.c
+
+CMakeFiles/darknet.dir/src/demo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/demo.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/demo.c > CMakeFiles/darknet.dir/src/demo.c.i
+
+CMakeFiles/darknet.dir/src/demo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/demo.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/demo.c -o CMakeFiles/darknet.dir/src/demo.c.s
+
+CMakeFiles/darknet.dir/src/demo.c.o.requires:
+
+.PHONY : CMakeFiles/darknet.dir/src/demo.c.o.requires
+
+CMakeFiles/darknet.dir/src/demo.c.o.provides: CMakeFiles/darknet.dir/src/demo.c.o.requires
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/demo.c.o.provides.build
+.PHONY : CMakeFiles/darknet.dir/src/demo.c.o.provides
+
+CMakeFiles/darknet.dir/src/demo.c.o.provides.build: CMakeFiles/darknet.dir/src/demo.c.o
+
+
 CMakeFiles/darknet.dir/src/detection_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/detection_layer.c.o: ../src/detection_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/darknet.dir/src/detection_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/detection_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/detection_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/darknet.dir/src/detection_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/detection_layer.c.o   -c /home/don/Documents/Projects/darknet/src/detection_layer.c
 
 CMakeFiles/darknet.dir/src/detection_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/detection_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/detection_layer.c > CMakeFiles/darknet.dir/src/detection_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/detection_layer.c > CMakeFiles/darknet.dir/src/detection_layer.c.i
 
 CMakeFiles/darknet.dir/src/detection_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/detection_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/detection_layer.c -o CMakeFiles/darknet.dir/src/detection_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/detection_layer.c -o CMakeFiles/darknet.dir/src/detection_layer.c.s
 
 CMakeFiles/darknet.dir/src/detection_layer.c.o.requires:
 
@@ -611,16 +2168,16 @@ CMakeFiles/darknet.dir/src/detection_layer.c.o.provides.build: CMakeFiles/darkne
 
 CMakeFiles/darknet.dir/src/detector.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/detector.c.o: ../src/detector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/darknet.dir/src/detector.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/detector.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/detector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/darknet.dir/src/detector.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/detector.c.o   -c /home/don/Documents/Projects/darknet/src/detector.c
 
 CMakeFiles/darknet.dir/src/detector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/detector.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/detector.c > CMakeFiles/darknet.dir/src/detector.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/detector.c > CMakeFiles/darknet.dir/src/detector.c.i
 
 CMakeFiles/darknet.dir/src/detector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/detector.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/detector.c -o CMakeFiles/darknet.dir/src/detector.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/detector.c -o CMakeFiles/darknet.dir/src/detector.c.s
 
 CMakeFiles/darknet.dir/src/detector.c.o.requires:
 
@@ -635,16 +2192,16 @@ CMakeFiles/darknet.dir/src/detector.c.o.provides.build: CMakeFiles/darknet.dir/s
 
 CMakeFiles/darknet.dir/src/dice.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/dice.c.o: ../src/dice.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/darknet.dir/src/dice.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/dice.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/dice.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/darknet.dir/src/dice.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/dice.c.o   -c /home/don/Documents/Projects/darknet/src/dice.c
 
 CMakeFiles/darknet.dir/src/dice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/dice.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/dice.c > CMakeFiles/darknet.dir/src/dice.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/dice.c > CMakeFiles/darknet.dir/src/dice.c.i
 
 CMakeFiles/darknet.dir/src/dice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/dice.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/dice.c -o CMakeFiles/darknet.dir/src/dice.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/dice.c -o CMakeFiles/darknet.dir/src/dice.c.s
 
 CMakeFiles/darknet.dir/src/dice.c.o.requires:
 
@@ -659,16 +2216,16 @@ CMakeFiles/darknet.dir/src/dice.c.o.provides.build: CMakeFiles/darknet.dir/src/d
 
 CMakeFiles/darknet.dir/src/dropout_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/dropout_layer.c.o: ../src/dropout_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/darknet.dir/src/dropout_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/dropout_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/dropout_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/darknet.dir/src/dropout_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/dropout_layer.c.o   -c /home/don/Documents/Projects/darknet/src/dropout_layer.c
 
 CMakeFiles/darknet.dir/src/dropout_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/dropout_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/dropout_layer.c > CMakeFiles/darknet.dir/src/dropout_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/dropout_layer.c > CMakeFiles/darknet.dir/src/dropout_layer.c.i
 
 CMakeFiles/darknet.dir/src/dropout_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/dropout_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/dropout_layer.c -o CMakeFiles/darknet.dir/src/dropout_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/dropout_layer.c -o CMakeFiles/darknet.dir/src/dropout_layer.c.s
 
 CMakeFiles/darknet.dir/src/dropout_layer.c.o.requires:
 
@@ -681,42 +2238,18 @@ CMakeFiles/darknet.dir/src/dropout_layer.c.o.provides: CMakeFiles/darknet.dir/sr
 CMakeFiles/darknet.dir/src/dropout_layer.c.o.provides.build: CMakeFiles/darknet.dir/src/dropout_layer.c.o
 
 
-CMakeFiles/darknet.dir/src/demo.c.o: CMakeFiles/darknet.dir/flags.make
-CMakeFiles/darknet.dir/src/demo.c.o: ../src/demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/darknet.dir/src/demo.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/demo.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/demo.c
-
-CMakeFiles/darknet.dir/src/demo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/demo.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/demo.c > CMakeFiles/darknet.dir/src/demo.c.i
-
-CMakeFiles/darknet.dir/src/demo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/demo.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/demo.c -o CMakeFiles/darknet.dir/src/demo.c.s
-
-CMakeFiles/darknet.dir/src/demo.c.o.requires:
-
-.PHONY : CMakeFiles/darknet.dir/src/demo.c.o.requires
-
-CMakeFiles/darknet.dir/src/demo.c.o.provides: CMakeFiles/darknet.dir/src/demo.c.o.requires
-	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/demo.c.o.provides.build
-.PHONY : CMakeFiles/darknet.dir/src/demo.c.o.provides
-
-CMakeFiles/darknet.dir/src/demo.c.o.provides.build: CMakeFiles/darknet.dir/src/demo.c.o
-
-
 CMakeFiles/darknet.dir/src/gemm.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/gemm.c.o: ../src/gemm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/darknet.dir/src/gemm.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/gemm.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/gemm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/darknet.dir/src/gemm.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/gemm.c.o   -c /home/don/Documents/Projects/darknet/src/gemm.c
 
 CMakeFiles/darknet.dir/src/gemm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/gemm.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/gemm.c > CMakeFiles/darknet.dir/src/gemm.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/gemm.c > CMakeFiles/darknet.dir/src/gemm.c.i
 
 CMakeFiles/darknet.dir/src/gemm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/gemm.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/gemm.c -o CMakeFiles/darknet.dir/src/gemm.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/gemm.c -o CMakeFiles/darknet.dir/src/gemm.c.s
 
 CMakeFiles/darknet.dir/src/gemm.c.o.requires:
 
@@ -731,16 +2264,16 @@ CMakeFiles/darknet.dir/src/gemm.c.o.provides.build: CMakeFiles/darknet.dir/src/g
 
 CMakeFiles/darknet.dir/src/go.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/go.c.o: ../src/go.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/darknet.dir/src/go.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/go.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/go.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/darknet.dir/src/go.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/go.c.o   -c /home/don/Documents/Projects/darknet/src/go.c
 
 CMakeFiles/darknet.dir/src/go.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/go.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/go.c > CMakeFiles/darknet.dir/src/go.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/go.c > CMakeFiles/darknet.dir/src/go.c.i
 
 CMakeFiles/darknet.dir/src/go.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/go.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/go.c -o CMakeFiles/darknet.dir/src/go.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/go.c -o CMakeFiles/darknet.dir/src/go.c.s
 
 CMakeFiles/darknet.dir/src/go.c.o.requires:
 
@@ -755,16 +2288,16 @@ CMakeFiles/darknet.dir/src/go.c.o.provides.build: CMakeFiles/darknet.dir/src/go.
 
 CMakeFiles/darknet.dir/src/gru_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/gru_layer.c.o: ../src/gru_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/darknet.dir/src/gru_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/gru_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/gru_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/darknet.dir/src/gru_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/gru_layer.c.o   -c /home/don/Documents/Projects/darknet/src/gru_layer.c
 
 CMakeFiles/darknet.dir/src/gru_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/gru_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/gru_layer.c > CMakeFiles/darknet.dir/src/gru_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/gru_layer.c > CMakeFiles/darknet.dir/src/gru_layer.c.i
 
 CMakeFiles/darknet.dir/src/gru_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/gru_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/gru_layer.c -o CMakeFiles/darknet.dir/src/gru_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/gru_layer.c -o CMakeFiles/darknet.dir/src/gru_layer.c.s
 
 CMakeFiles/darknet.dir/src/gru_layer.c.o.requires:
 
@@ -779,16 +2312,16 @@ CMakeFiles/darknet.dir/src/gru_layer.c.o.provides.build: CMakeFiles/darknet.dir/
 
 CMakeFiles/darknet.dir/src/im2col.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/im2col.c.o: ../src/im2col.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/darknet.dir/src/im2col.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/im2col.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/im2col.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/darknet.dir/src/im2col.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/im2col.c.o   -c /home/don/Documents/Projects/darknet/src/im2col.c
 
 CMakeFiles/darknet.dir/src/im2col.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/im2col.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/im2col.c > CMakeFiles/darknet.dir/src/im2col.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/im2col.c > CMakeFiles/darknet.dir/src/im2col.c.i
 
 CMakeFiles/darknet.dir/src/im2col.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/im2col.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/im2col.c -o CMakeFiles/darknet.dir/src/im2col.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/im2col.c -o CMakeFiles/darknet.dir/src/im2col.c.s
 
 CMakeFiles/darknet.dir/src/im2col.c.o.requires:
 
@@ -803,16 +2336,16 @@ CMakeFiles/darknet.dir/src/im2col.c.o.provides.build: CMakeFiles/darknet.dir/src
 
 CMakeFiles/darknet.dir/src/image.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/image.c.o: ../src/image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/darknet.dir/src/image.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/image.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/darknet.dir/src/image.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/image.c.o   -c /home/don/Documents/Projects/darknet/src/image.c
 
 CMakeFiles/darknet.dir/src/image.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/image.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/image.c > CMakeFiles/darknet.dir/src/image.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/image.c > CMakeFiles/darknet.dir/src/image.c.i
 
 CMakeFiles/darknet.dir/src/image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/image.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/image.c -o CMakeFiles/darknet.dir/src/image.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/image.c -o CMakeFiles/darknet.dir/src/image.c.s
 
 CMakeFiles/darknet.dir/src/image.c.o.requires:
 
@@ -827,16 +2360,16 @@ CMakeFiles/darknet.dir/src/image.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/layer.c.o: ../src/layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/darknet.dir/src/layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/darknet.dir/src/layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/layer.c.o   -c /home/don/Documents/Projects/darknet/src/layer.c
 
 CMakeFiles/darknet.dir/src/layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/layer.c > CMakeFiles/darknet.dir/src/layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/layer.c > CMakeFiles/darknet.dir/src/layer.c.i
 
 CMakeFiles/darknet.dir/src/layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/layer.c -o CMakeFiles/darknet.dir/src/layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/layer.c -o CMakeFiles/darknet.dir/src/layer.c.s
 
 CMakeFiles/darknet.dir/src/layer.c.o.requires:
 
@@ -851,16 +2384,16 @@ CMakeFiles/darknet.dir/src/layer.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/list.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/list.c.o: ../src/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/darknet.dir/src/list.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/list.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/darknet.dir/src/list.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/list.c.o   -c /home/don/Documents/Projects/darknet/src/list.c
 
 CMakeFiles/darknet.dir/src/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/list.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/list.c > CMakeFiles/darknet.dir/src/list.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/list.c > CMakeFiles/darknet.dir/src/list.c.i
 
 CMakeFiles/darknet.dir/src/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/list.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/list.c -o CMakeFiles/darknet.dir/src/list.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/list.c -o CMakeFiles/darknet.dir/src/list.c.s
 
 CMakeFiles/darknet.dir/src/list.c.o.requires:
 
@@ -875,16 +2408,16 @@ CMakeFiles/darknet.dir/src/list.c.o.provides.build: CMakeFiles/darknet.dir/src/l
 
 CMakeFiles/darknet.dir/src/local_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/local_layer.c.o: ../src/local_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/darknet.dir/src/local_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/local_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/local_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/darknet.dir/src/local_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/local_layer.c.o   -c /home/don/Documents/Projects/darknet/src/local_layer.c
 
 CMakeFiles/darknet.dir/src/local_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/local_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/local_layer.c > CMakeFiles/darknet.dir/src/local_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/local_layer.c > CMakeFiles/darknet.dir/src/local_layer.c.i
 
 CMakeFiles/darknet.dir/src/local_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/local_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/local_layer.c -o CMakeFiles/darknet.dir/src/local_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/local_layer.c -o CMakeFiles/darknet.dir/src/local_layer.c.s
 
 CMakeFiles/darknet.dir/src/local_layer.c.o.requires:
 
@@ -899,16 +2432,16 @@ CMakeFiles/darknet.dir/src/local_layer.c.o.provides.build: CMakeFiles/darknet.di
 
 CMakeFiles/darknet.dir/src/matrix.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/matrix.c.o: ../src/matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/darknet.dir/src/matrix.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/matrix.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/darknet.dir/src/matrix.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/matrix.c.o   -c /home/don/Documents/Projects/darknet/src/matrix.c
 
 CMakeFiles/darknet.dir/src/matrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/matrix.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/matrix.c > CMakeFiles/darknet.dir/src/matrix.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/matrix.c > CMakeFiles/darknet.dir/src/matrix.c.i
 
 CMakeFiles/darknet.dir/src/matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/matrix.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/matrix.c -o CMakeFiles/darknet.dir/src/matrix.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/matrix.c -o CMakeFiles/darknet.dir/src/matrix.c.s
 
 CMakeFiles/darknet.dir/src/matrix.c.o.requires:
 
@@ -923,16 +2456,16 @@ CMakeFiles/darknet.dir/src/matrix.c.o.provides.build: CMakeFiles/darknet.dir/src
 
 CMakeFiles/darknet.dir/src/maxpool_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/maxpool_layer.c.o: ../src/maxpool_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/darknet.dir/src/maxpool_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/maxpool_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/maxpool_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/darknet.dir/src/maxpool_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/maxpool_layer.c.o   -c /home/don/Documents/Projects/darknet/src/maxpool_layer.c
 
 CMakeFiles/darknet.dir/src/maxpool_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/maxpool_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/maxpool_layer.c > CMakeFiles/darknet.dir/src/maxpool_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/maxpool_layer.c > CMakeFiles/darknet.dir/src/maxpool_layer.c.i
 
 CMakeFiles/darknet.dir/src/maxpool_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/maxpool_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/maxpool_layer.c -o CMakeFiles/darknet.dir/src/maxpool_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/maxpool_layer.c -o CMakeFiles/darknet.dir/src/maxpool_layer.c.s
 
 CMakeFiles/darknet.dir/src/maxpool_layer.c.o.requires:
 
@@ -947,16 +2480,16 @@ CMakeFiles/darknet.dir/src/maxpool_layer.c.o.provides.build: CMakeFiles/darknet.
 
 CMakeFiles/darknet.dir/src/network.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/network.c.o: ../src/network.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/darknet.dir/src/network.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/network.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/network.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/darknet.dir/src/network.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/network.c.o   -c /home/don/Documents/Projects/darknet/src/network.c
 
 CMakeFiles/darknet.dir/src/network.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/network.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/network.c > CMakeFiles/darknet.dir/src/network.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/network.c > CMakeFiles/darknet.dir/src/network.c.i
 
 CMakeFiles/darknet.dir/src/network.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/network.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/network.c -o CMakeFiles/darknet.dir/src/network.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/network.c -o CMakeFiles/darknet.dir/src/network.c.s
 
 CMakeFiles/darknet.dir/src/network.c.o.requires:
 
@@ -969,42 +2502,18 @@ CMakeFiles/darknet.dir/src/network.c.o.provides: CMakeFiles/darknet.dir/src/netw
 CMakeFiles/darknet.dir/src/network.c.o.provides.build: CMakeFiles/darknet.dir/src/network.c.o
 
 
-CMakeFiles/darknet.dir/src/normalization_layer.c.o: CMakeFiles/darknet.dir/flags.make
-CMakeFiles/darknet.dir/src/normalization_layer.c.o: ../src/normalization_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/darknet.dir/src/normalization_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/normalization_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/normalization_layer.c
-
-CMakeFiles/darknet.dir/src/normalization_layer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/normalization_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/normalization_layer.c > CMakeFiles/darknet.dir/src/normalization_layer.c.i
-
-CMakeFiles/darknet.dir/src/normalization_layer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/normalization_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/normalization_layer.c -o CMakeFiles/darknet.dir/src/normalization_layer.c.s
-
-CMakeFiles/darknet.dir/src/normalization_layer.c.o.requires:
-
-.PHONY : CMakeFiles/darknet.dir/src/normalization_layer.c.o.requires
-
-CMakeFiles/darknet.dir/src/normalization_layer.c.o.provides: CMakeFiles/darknet.dir/src/normalization_layer.c.o.requires
-	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/normalization_layer.c.o.provides.build
-.PHONY : CMakeFiles/darknet.dir/src/normalization_layer.c.o.provides
-
-CMakeFiles/darknet.dir/src/normalization_layer.c.o.provides.build: CMakeFiles/darknet.dir/src/normalization_layer.c.o
-
-
 CMakeFiles/darknet.dir/src/nightmare.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/nightmare.c.o: ../src/nightmare.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/darknet.dir/src/nightmare.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/nightmare.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/nightmare.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/darknet.dir/src/nightmare.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/nightmare.c.o   -c /home/don/Documents/Projects/darknet/src/nightmare.c
 
 CMakeFiles/darknet.dir/src/nightmare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/nightmare.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/nightmare.c > CMakeFiles/darknet.dir/src/nightmare.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/nightmare.c > CMakeFiles/darknet.dir/src/nightmare.c.i
 
 CMakeFiles/darknet.dir/src/nightmare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/nightmare.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/nightmare.c -o CMakeFiles/darknet.dir/src/nightmare.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/nightmare.c -o CMakeFiles/darknet.dir/src/nightmare.c.s
 
 CMakeFiles/darknet.dir/src/nightmare.c.o.requires:
 
@@ -1017,18 +2526,42 @@ CMakeFiles/darknet.dir/src/nightmare.c.o.provides: CMakeFiles/darknet.dir/src/ni
 CMakeFiles/darknet.dir/src/nightmare.c.o.provides.build: CMakeFiles/darknet.dir/src/nightmare.c.o
 
 
+CMakeFiles/darknet.dir/src/normalization_layer.c.o: CMakeFiles/darknet.dir/flags.make
+CMakeFiles/darknet.dir/src/normalization_layer.c.o: ../src/normalization_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/darknet.dir/src/normalization_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/normalization_layer.c.o   -c /home/don/Documents/Projects/darknet/src/normalization_layer.c
+
+CMakeFiles/darknet.dir/src/normalization_layer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/normalization_layer.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/normalization_layer.c > CMakeFiles/darknet.dir/src/normalization_layer.c.i
+
+CMakeFiles/darknet.dir/src/normalization_layer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/normalization_layer.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/normalization_layer.c -o CMakeFiles/darknet.dir/src/normalization_layer.c.s
+
+CMakeFiles/darknet.dir/src/normalization_layer.c.o.requires:
+
+.PHONY : CMakeFiles/darknet.dir/src/normalization_layer.c.o.requires
+
+CMakeFiles/darknet.dir/src/normalization_layer.c.o.provides: CMakeFiles/darknet.dir/src/normalization_layer.c.o.requires
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/normalization_layer.c.o.provides.build
+.PHONY : CMakeFiles/darknet.dir/src/normalization_layer.c.o.provides
+
+CMakeFiles/darknet.dir/src/normalization_layer.c.o.provides.build: CMakeFiles/darknet.dir/src/normalization_layer.c.o
+
+
 CMakeFiles/darknet.dir/src/option_list.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/option_list.c.o: ../src/option_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/darknet.dir/src/option_list.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/option_list.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/option_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/darknet.dir/src/option_list.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/option_list.c.o   -c /home/don/Documents/Projects/darknet/src/option_list.c
 
 CMakeFiles/darknet.dir/src/option_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/option_list.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/option_list.c > CMakeFiles/darknet.dir/src/option_list.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/option_list.c > CMakeFiles/darknet.dir/src/option_list.c.i
 
 CMakeFiles/darknet.dir/src/option_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/option_list.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/option_list.c -o CMakeFiles/darknet.dir/src/option_list.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/option_list.c -o CMakeFiles/darknet.dir/src/option_list.c.s
 
 CMakeFiles/darknet.dir/src/option_list.c.o.requires:
 
@@ -1043,16 +2576,16 @@ CMakeFiles/darknet.dir/src/option_list.c.o.provides.build: CMakeFiles/darknet.di
 
 CMakeFiles/darknet.dir/src/parser.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/parser.c.o: ../src/parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/darknet.dir/src/parser.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/parser.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/darknet.dir/src/parser.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/parser.c.o   -c /home/don/Documents/Projects/darknet/src/parser.c
 
 CMakeFiles/darknet.dir/src/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/parser.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/parser.c > CMakeFiles/darknet.dir/src/parser.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/parser.c > CMakeFiles/darknet.dir/src/parser.c.i
 
 CMakeFiles/darknet.dir/src/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/parser.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/parser.c -o CMakeFiles/darknet.dir/src/parser.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/parser.c -o CMakeFiles/darknet.dir/src/parser.c.s
 
 CMakeFiles/darknet.dir/src/parser.c.o.requires:
 
@@ -1067,16 +2600,16 @@ CMakeFiles/darknet.dir/src/parser.c.o.provides.build: CMakeFiles/darknet.dir/src
 
 CMakeFiles/darknet.dir/src/region_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/region_layer.c.o: ../src/region_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/darknet.dir/src/region_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/region_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/region_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/darknet.dir/src/region_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/region_layer.c.o   -c /home/don/Documents/Projects/darknet/src/region_layer.c
 
 CMakeFiles/darknet.dir/src/region_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/region_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/region_layer.c > CMakeFiles/darknet.dir/src/region_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/region_layer.c > CMakeFiles/darknet.dir/src/region_layer.c.i
 
 CMakeFiles/darknet.dir/src/region_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/region_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/region_layer.c -o CMakeFiles/darknet.dir/src/region_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/region_layer.c -o CMakeFiles/darknet.dir/src/region_layer.c.s
 
 CMakeFiles/darknet.dir/src/region_layer.c.o.requires:
 
@@ -1091,16 +2624,16 @@ CMakeFiles/darknet.dir/src/region_layer.c.o.provides.build: CMakeFiles/darknet.d
 
 CMakeFiles/darknet.dir/src/reorg_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/reorg_layer.c.o: ../src/reorg_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/darknet.dir/src/reorg_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/reorg_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/reorg_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/darknet.dir/src/reorg_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/reorg_layer.c.o   -c /home/don/Documents/Projects/darknet/src/reorg_layer.c
 
 CMakeFiles/darknet.dir/src/reorg_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/reorg_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/reorg_layer.c > CMakeFiles/darknet.dir/src/reorg_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/reorg_layer.c > CMakeFiles/darknet.dir/src/reorg_layer.c.i
 
 CMakeFiles/darknet.dir/src/reorg_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/reorg_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/reorg_layer.c -o CMakeFiles/darknet.dir/src/reorg_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/reorg_layer.c -o CMakeFiles/darknet.dir/src/reorg_layer.c.s
 
 CMakeFiles/darknet.dir/src/reorg_layer.c.o.requires:
 
@@ -1115,16 +2648,16 @@ CMakeFiles/darknet.dir/src/reorg_layer.c.o.provides.build: CMakeFiles/darknet.di
 
 CMakeFiles/darknet.dir/src/rnn.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/rnn.c.o: ../src/rnn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/darknet.dir/src/rnn.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/rnn.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/rnn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/darknet.dir/src/rnn.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/rnn.c.o   -c /home/don/Documents/Projects/darknet/src/rnn.c
 
 CMakeFiles/darknet.dir/src/rnn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/rnn.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/rnn.c > CMakeFiles/darknet.dir/src/rnn.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/rnn.c > CMakeFiles/darknet.dir/src/rnn.c.i
 
 CMakeFiles/darknet.dir/src/rnn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/rnn.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/rnn.c -o CMakeFiles/darknet.dir/src/rnn.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/rnn.c -o CMakeFiles/darknet.dir/src/rnn.c.s
 
 CMakeFiles/darknet.dir/src/rnn.c.o.requires:
 
@@ -1139,16 +2672,16 @@ CMakeFiles/darknet.dir/src/rnn.c.o.provides.build: CMakeFiles/darknet.dir/src/rn
 
 CMakeFiles/darknet.dir/src/rnn_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/rnn_layer.c.o: ../src/rnn_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/darknet.dir/src/rnn_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/rnn_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/rnn_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/darknet.dir/src/rnn_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/rnn_layer.c.o   -c /home/don/Documents/Projects/darknet/src/rnn_layer.c
 
 CMakeFiles/darknet.dir/src/rnn_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/rnn_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/rnn_layer.c > CMakeFiles/darknet.dir/src/rnn_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/rnn_layer.c > CMakeFiles/darknet.dir/src/rnn_layer.c.i
 
 CMakeFiles/darknet.dir/src/rnn_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/rnn_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/rnn_layer.c -o CMakeFiles/darknet.dir/src/rnn_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/rnn_layer.c -o CMakeFiles/darknet.dir/src/rnn_layer.c.s
 
 CMakeFiles/darknet.dir/src/rnn_layer.c.o.requires:
 
@@ -1163,16 +2696,16 @@ CMakeFiles/darknet.dir/src/rnn_layer.c.o.provides.build: CMakeFiles/darknet.dir/
 
 CMakeFiles/darknet.dir/src/rnn_vid.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/rnn_vid.c.o: ../src/rnn_vid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/darknet.dir/src/rnn_vid.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/rnn_vid.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/rnn_vid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/darknet.dir/src/rnn_vid.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/rnn_vid.c.o   -c /home/don/Documents/Projects/darknet/src/rnn_vid.c
 
 CMakeFiles/darknet.dir/src/rnn_vid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/rnn_vid.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/rnn_vid.c > CMakeFiles/darknet.dir/src/rnn_vid.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/rnn_vid.c > CMakeFiles/darknet.dir/src/rnn_vid.c.i
 
 CMakeFiles/darknet.dir/src/rnn_vid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/rnn_vid.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/rnn_vid.c -o CMakeFiles/darknet.dir/src/rnn_vid.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/rnn_vid.c -o CMakeFiles/darknet.dir/src/rnn_vid.c.s
 
 CMakeFiles/darknet.dir/src/rnn_vid.c.o.requires:
 
@@ -1185,18 +2718,42 @@ CMakeFiles/darknet.dir/src/rnn_vid.c.o.provides: CMakeFiles/darknet.dir/src/rnn_
 CMakeFiles/darknet.dir/src/rnn_vid.c.o.provides.build: CMakeFiles/darknet.dir/src/rnn_vid.c.o
 
 
+CMakeFiles/darknet.dir/src/round.c.o: CMakeFiles/darknet.dir/flags.make
+CMakeFiles/darknet.dir/src/round.c.o: ../src/round.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/darknet.dir/src/round.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/round.c.o   -c /home/don/Documents/Projects/darknet/src/round.c
+
+CMakeFiles/darknet.dir/src/round.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/round.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/round.c > CMakeFiles/darknet.dir/src/round.c.i
+
+CMakeFiles/darknet.dir/src/round.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/round.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/round.c -o CMakeFiles/darknet.dir/src/round.c.s
+
+CMakeFiles/darknet.dir/src/round.c.o.requires:
+
+.PHONY : CMakeFiles/darknet.dir/src/round.c.o.requires
+
+CMakeFiles/darknet.dir/src/round.c.o.provides: CMakeFiles/darknet.dir/src/round.c.o.requires
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/round.c.o.provides.build
+.PHONY : CMakeFiles/darknet.dir/src/round.c.o.provides
+
+CMakeFiles/darknet.dir/src/round.c.o.provides.build: CMakeFiles/darknet.dir/src/round.c.o
+
+
 CMakeFiles/darknet.dir/src/route_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/route_layer.c.o: ../src/route_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/darknet.dir/src/route_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/route_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/route_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/darknet.dir/src/route_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/route_layer.c.o   -c /home/don/Documents/Projects/darknet/src/route_layer.c
 
 CMakeFiles/darknet.dir/src/route_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/route_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/route_layer.c > CMakeFiles/darknet.dir/src/route_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/route_layer.c > CMakeFiles/darknet.dir/src/route_layer.c.i
 
 CMakeFiles/darknet.dir/src/route_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/route_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/route_layer.c -o CMakeFiles/darknet.dir/src/route_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/route_layer.c -o CMakeFiles/darknet.dir/src/route_layer.c.s
 
 CMakeFiles/darknet.dir/src/route_layer.c.o.requires:
 
@@ -1211,16 +2768,16 @@ CMakeFiles/darknet.dir/src/route_layer.c.o.provides.build: CMakeFiles/darknet.di
 
 CMakeFiles/darknet.dir/src/shortcut_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/shortcut_layer.c.o: ../src/shortcut_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/darknet.dir/src/shortcut_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/shortcut_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/shortcut_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/darknet.dir/src/shortcut_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/shortcut_layer.c.o   -c /home/don/Documents/Projects/darknet/src/shortcut_layer.c
 
 CMakeFiles/darknet.dir/src/shortcut_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/shortcut_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/shortcut_layer.c > CMakeFiles/darknet.dir/src/shortcut_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/shortcut_layer.c > CMakeFiles/darknet.dir/src/shortcut_layer.c.i
 
 CMakeFiles/darknet.dir/src/shortcut_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/shortcut_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/shortcut_layer.c -o CMakeFiles/darknet.dir/src/shortcut_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/shortcut_layer.c -o CMakeFiles/darknet.dir/src/shortcut_layer.c.s
 
 CMakeFiles/darknet.dir/src/shortcut_layer.c.o.requires:
 
@@ -1235,16 +2792,16 @@ CMakeFiles/darknet.dir/src/shortcut_layer.c.o.provides.build: CMakeFiles/darknet
 
 CMakeFiles/darknet.dir/src/softmax_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/softmax_layer.c.o: ../src/softmax_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/darknet.dir/src/softmax_layer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/softmax_layer.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/softmax_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/darknet.dir/src/softmax_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/softmax_layer.c.o   -c /home/don/Documents/Projects/darknet/src/softmax_layer.c
 
 CMakeFiles/darknet.dir/src/softmax_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/softmax_layer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/softmax_layer.c > CMakeFiles/darknet.dir/src/softmax_layer.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/softmax_layer.c > CMakeFiles/darknet.dir/src/softmax_layer.c.i
 
 CMakeFiles/darknet.dir/src/softmax_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/softmax_layer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/softmax_layer.c -o CMakeFiles/darknet.dir/src/softmax_layer.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/softmax_layer.c -o CMakeFiles/darknet.dir/src/softmax_layer.c.s
 
 CMakeFiles/darknet.dir/src/softmax_layer.c.o.requires:
 
@@ -1259,16 +2816,16 @@ CMakeFiles/darknet.dir/src/softmax_layer.c.o.provides.build: CMakeFiles/darknet.
 
 CMakeFiles/darknet.dir/src/super.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/super.c.o: ../src/super.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/darknet.dir/src/super.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/super.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/super.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/darknet.dir/src/super.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/super.c.o   -c /home/don/Documents/Projects/darknet/src/super.c
 
 CMakeFiles/darknet.dir/src/super.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/super.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/super.c > CMakeFiles/darknet.dir/src/super.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/super.c > CMakeFiles/darknet.dir/src/super.c.i
 
 CMakeFiles/darknet.dir/src/super.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/super.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/super.c -o CMakeFiles/darknet.dir/src/super.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/super.c -o CMakeFiles/darknet.dir/src/super.c.s
 
 CMakeFiles/darknet.dir/src/super.c.o.requires:
 
@@ -1283,16 +2840,16 @@ CMakeFiles/darknet.dir/src/super.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/swag.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/swag.c.o: ../src/swag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/darknet.dir/src/swag.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/swag.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/swag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/darknet.dir/src/swag.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/swag.c.o   -c /home/don/Documents/Projects/darknet/src/swag.c
 
 CMakeFiles/darknet.dir/src/swag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/swag.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/swag.c > CMakeFiles/darknet.dir/src/swag.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/swag.c > CMakeFiles/darknet.dir/src/swag.c.i
 
 CMakeFiles/darknet.dir/src/swag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/swag.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/swag.c -o CMakeFiles/darknet.dir/src/swag.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/swag.c -o CMakeFiles/darknet.dir/src/swag.c.s
 
 CMakeFiles/darknet.dir/src/swag.c.o.requires:
 
@@ -1307,16 +2864,16 @@ CMakeFiles/darknet.dir/src/swag.c.o.provides.build: CMakeFiles/darknet.dir/src/s
 
 CMakeFiles/darknet.dir/src/tag.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/tag.c.o: ../src/tag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/darknet.dir/src/tag.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/tag.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/tag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/darknet.dir/src/tag.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/tag.c.o   -c /home/don/Documents/Projects/darknet/src/tag.c
 
 CMakeFiles/darknet.dir/src/tag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/tag.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/tag.c > CMakeFiles/darknet.dir/src/tag.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/tag.c > CMakeFiles/darknet.dir/src/tag.c.i
 
 CMakeFiles/darknet.dir/src/tag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/tag.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/tag.c -o CMakeFiles/darknet.dir/src/tag.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/tag.c -o CMakeFiles/darknet.dir/src/tag.c.s
 
 CMakeFiles/darknet.dir/src/tag.c.o.requires:
 
@@ -1331,16 +2888,16 @@ CMakeFiles/darknet.dir/src/tag.c.o.provides.build: CMakeFiles/darknet.dir/src/ta
 
 CMakeFiles/darknet.dir/src/tree.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/tree.c.o: ../src/tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/darknet.dir/src/tree.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/tree.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/darknet.dir/src/tree.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/tree.c.o   -c /home/don/Documents/Projects/darknet/src/tree.c
 
 CMakeFiles/darknet.dir/src/tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/tree.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/tree.c > CMakeFiles/darknet.dir/src/tree.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/tree.c > CMakeFiles/darknet.dir/src/tree.c.i
 
 CMakeFiles/darknet.dir/src/tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/tree.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/tree.c -o CMakeFiles/darknet.dir/src/tree.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/tree.c -o CMakeFiles/darknet.dir/src/tree.c.s
 
 CMakeFiles/darknet.dir/src/tree.c.o.requires:
 
@@ -1355,16 +2912,16 @@ CMakeFiles/darknet.dir/src/tree.c.o.provides.build: CMakeFiles/darknet.dir/src/t
 
 CMakeFiles/darknet.dir/src/utils.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/utils.c.o: ../src/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/darknet.dir/src/utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/utils.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/darknet.dir/src/utils.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/utils.c.o   -c /home/don/Documents/Projects/darknet/src/utils.c
 
 CMakeFiles/darknet.dir/src/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/utils.c > CMakeFiles/darknet.dir/src/utils.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/utils.c > CMakeFiles/darknet.dir/src/utils.c.i
 
 CMakeFiles/darknet.dir/src/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/utils.c -o CMakeFiles/darknet.dir/src/utils.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/utils.c -o CMakeFiles/darknet.dir/src/utils.c.s
 
 CMakeFiles/darknet.dir/src/utils.c.o.requires:
 
@@ -1379,16 +2936,16 @@ CMakeFiles/darknet.dir/src/utils.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/voxel.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/voxel.c.o: ../src/voxel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/darknet.dir/src/voxel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/voxel.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/voxel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/darknet.dir/src/voxel.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/voxel.c.o   -c /home/don/Documents/Projects/darknet/src/voxel.c
 
 CMakeFiles/darknet.dir/src/voxel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/voxel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/voxel.c > CMakeFiles/darknet.dir/src/voxel.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/voxel.c > CMakeFiles/darknet.dir/src/voxel.c.i
 
 CMakeFiles/darknet.dir/src/voxel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/voxel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/voxel.c -o CMakeFiles/darknet.dir/src/voxel.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/voxel.c -o CMakeFiles/darknet.dir/src/voxel.c.s
 
 CMakeFiles/darknet.dir/src/voxel.c.o.requires:
 
@@ -1403,16 +2960,16 @@ CMakeFiles/darknet.dir/src/voxel.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/writing.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/writing.c.o: ../src/writing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/darknet.dir/src/writing.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/writing.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/writing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/darknet.dir/src/writing.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/writing.c.o   -c /home/don/Documents/Projects/darknet/src/writing.c
 
 CMakeFiles/darknet.dir/src/writing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/writing.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/writing.c > CMakeFiles/darknet.dir/src/writing.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/writing.c > CMakeFiles/darknet.dir/src/writing.c.i
 
 CMakeFiles/darknet.dir/src/writing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/writing.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/writing.c -o CMakeFiles/darknet.dir/src/writing.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/writing.c -o CMakeFiles/darknet.dir/src/writing.c.s
 
 CMakeFiles/darknet.dir/src/writing.c.o.requires:
 
@@ -1427,16 +2984,16 @@ CMakeFiles/darknet.dir/src/writing.c.o.provides.build: CMakeFiles/darknet.dir/sr
 
 CMakeFiles/darknet.dir/src/yolo.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/yolo.c.o: ../src/yolo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/darknet.dir/src/yolo.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/yolo.c.o   -c /Users/Don/Documents/Projects/darknetmain/darknet/src/yolo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/darknet.dir/src/yolo.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/yolo.c.o   -c /home/don/Documents/Projects/darknet/src/yolo.c
 
 CMakeFiles/darknet.dir/src/yolo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/yolo.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Don/Documents/Projects/darknetmain/darknet/src/yolo.c > CMakeFiles/darknet.dir/src/yolo.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/yolo.c > CMakeFiles/darknet.dir/src/yolo.c.i
 
 CMakeFiles/darknet.dir/src/yolo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/yolo.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Don/Documents/Projects/darknetmain/darknet/src/yolo.c -o CMakeFiles/darknet.dir/src/yolo.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/yolo.c -o CMakeFiles/darknet.dir/src/yolo.c.s
 
 CMakeFiles/darknet.dir/src/yolo.c.o.requires:
 
@@ -1473,11 +3030,11 @@ darknet_OBJECTS = \
 "CMakeFiles/darknet.dir/src/darknet.c.o" \
 "CMakeFiles/darknet.dir/src/data.c.o" \
 "CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o" \
+"CMakeFiles/darknet.dir/src/demo.c.o" \
 "CMakeFiles/darknet.dir/src/detection_layer.c.o" \
 "CMakeFiles/darknet.dir/src/detector.c.o" \
 "CMakeFiles/darknet.dir/src/dice.c.o" \
 "CMakeFiles/darknet.dir/src/dropout_layer.c.o" \
-"CMakeFiles/darknet.dir/src/demo.c.o" \
 "CMakeFiles/darknet.dir/src/gemm.c.o" \
 "CMakeFiles/darknet.dir/src/go.c.o" \
 "CMakeFiles/darknet.dir/src/gru_layer.c.o" \
@@ -1489,8 +3046,8 @@ darknet_OBJECTS = \
 "CMakeFiles/darknet.dir/src/matrix.c.o" \
 "CMakeFiles/darknet.dir/src/maxpool_layer.c.o" \
 "CMakeFiles/darknet.dir/src/network.c.o" \
-"CMakeFiles/darknet.dir/src/normalization_layer.c.o" \
 "CMakeFiles/darknet.dir/src/nightmare.c.o" \
+"CMakeFiles/darknet.dir/src/normalization_layer.c.o" \
 "CMakeFiles/darknet.dir/src/option_list.c.o" \
 "CMakeFiles/darknet.dir/src/parser.c.o" \
 "CMakeFiles/darknet.dir/src/region_layer.c.o" \
@@ -1498,6 +3055,7 @@ darknet_OBJECTS = \
 "CMakeFiles/darknet.dir/src/rnn.c.o" \
 "CMakeFiles/darknet.dir/src/rnn_layer.c.o" \
 "CMakeFiles/darknet.dir/src/rnn_vid.c.o" \
+"CMakeFiles/darknet.dir/src/round.c.o" \
 "CMakeFiles/darknet.dir/src/route_layer.c.o" \
 "CMakeFiles/darknet.dir/src/shortcut_layer.c.o" \
 "CMakeFiles/darknet.dir/src/softmax_layer.c.o" \
@@ -1511,74 +3069,97 @@ darknet_OBJECTS = \
 "CMakeFiles/darknet.dir/src/yolo.c.o"
 
 # External object files for target darknet
-darknet_EXTERNAL_OBJECTS =
+darknet_EXTERNAL_OBJECTS = \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o" \
+"/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o"
 
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/activation_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/activations.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/art.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/avgpool_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/batchnorm_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/blas.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/box.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/captcha.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/cifar.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/classifier.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/coco.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/col2im.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/compare.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/connected_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/convolutional_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/cost_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/crnn_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/crop_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/cuda.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/darknet.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/data.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/detection_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/detector.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/dice.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/dropout_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/demo.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/gemm.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/go.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/gru_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/im2col.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/image.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/list.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/local_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/matrix.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/maxpool_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/network.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/normalization_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/nightmare.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/option_list.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/parser.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/region_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/reorg_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/rnn.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/rnn_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/rnn_vid.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/route_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/shortcut_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/softmax_layer.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/super.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/swag.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/tag.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/tree.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/utils.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/voxel.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/writing.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/src/yolo.c.o
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/build.make
-/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a: CMakeFiles/darknet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking C static library /Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a"
-	$(CMAKE_COMMAND) -P CMakeFiles/darknet.dir/cmake_clean_target.cmake
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/activation_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/activations.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/art.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/avgpool_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/batchnorm_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/blas.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/box.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/captcha.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/cifar.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/classifier.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/coco.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/col2im.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/compare.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/connected_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/convolutional_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/cost_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/crnn_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/crop_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/cuda.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/data.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/demo.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/detection_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/detector.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/dice.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/dropout_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/gemm.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/go.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/gru_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/im2col.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/image.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/list.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/local_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/matrix.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/maxpool_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/network.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/nightmare.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/normalization_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/option_list.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/parser.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/region_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/reorg_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/rnn.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/rnn_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/rnn_vid.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/round.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/route_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/shortcut_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/softmax_layer.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/super.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/swag.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/tag.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/tree.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/utils.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/voxel.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/writing.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/yolo.c.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/build.make
+/home/don/Documents/Projects/bin/darknet: /usr/local/cuda/lib64/libcudart.so
+/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable /home/don/Documents/Projects/bin/darknet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/darknet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/darknet.dir/build: /Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a
+CMakeFiles/darknet.dir/build: /home/don/Documents/Projects/bin/darknet
 
 .PHONY : CMakeFiles/darknet.dir/build
 
@@ -1604,11 +3185,11 @@ CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/cuda.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/darknet.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/data.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o.requires
+CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/demo.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/detection_layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/detector.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/dice.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/dropout_layer.c.o.requires
-CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/demo.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/gemm.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/go.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/gru_layer.c.o.requires
@@ -1620,8 +3201,8 @@ CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/local_layer.c.o.requ
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/matrix.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/maxpool_layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/network.c.o.requires
-CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/normalization_layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/nightmare.c.o.requires
+CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/normalization_layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/option_list.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/parser.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/region_layer.c.o.requires
@@ -1629,6 +3210,7 @@ CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/reorg_layer.c.o.requ
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/rnn.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/rnn_layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/rnn_vid.c.o.requires
+CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/round.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/route_layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/shortcut_layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/softmax_layer.c.o.requires
@@ -1647,7 +3229,17 @@ CMakeFiles/darknet.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/darknet.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/darknet.dir/clean
 
-CMakeFiles/darknet.dir/depend:
-	cd /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Don/Documents/Projects/darknetmain/darknet /Users/Don/Documents/Projects/darknetmain/darknet /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/CMakeFiles/darknet.dir/DependInfo.cmake --color=$(COLOR)
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_activation_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_avgpool_layer_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_blas_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_col2im_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_convolutional_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_crop_layer_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_deconvolutional_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_dropout_layer_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_im2col_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_maxpool_layer_kernels.cu.o
+CMakeFiles/darknet.dir/depend: CMakeFiles/darknet.dir/src/darknet_generated_network_kernels.cu.o
+	cd /home/don/Documents/Projects/darknet/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/don/Documents/Projects/darknet /home/don/Documents/Projects/darknet /home/don/Documents/Projects/darknet/cmake-build-debug /home/don/Documents/Projects/darknet/cmake-build-debug /home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/darknet.dir/depend
 

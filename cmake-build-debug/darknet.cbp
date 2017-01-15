@@ -8,375 +8,433 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug"/>
+				<Option working_dir="/home/don/Documents/Projects/darknet/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug"/>
+				<Option working_dir="/home/don/Documents/Projects/darknet/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug"/>
+				<Option working_dir="/home/don/Documents/Projects/darknet/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="darknet">
-				<Option output="/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug"/>
+				<Option output="/home/don/Documents/Projects/bin/darknet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/don/Documents/Projects/darknet/../bin"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DOPENCV"/>
+					<Add option="-DHAVE_OPENCV_VIDEOIO"/>
+					<Add option="-DHAVE_OPENCV_IMGCODECS"/>
+					<Add option="-DGPU"/>
+					<Add option="-DCUDN"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/cuda/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="darknet/fast">
-				<Option output="/Users/Don/Documents/Projects/darknetmain/lib/libdarknet.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug"/>
+				<Option output="/home/don/Documents/Projects/bin/darknet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/don/Documents/Projects/darknet/../bin"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DOPENCV"/>
+					<Add option="-DHAVE_OPENCV_VIDEOIO"/>
+					<Add option="-DHAVE_OPENCV_IMGCODECS"/>
+					<Add option="-DGPU"/>
+					<Add option="-DCUDN"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/cuda/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet/fast"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/don/Documents/Projects/darknet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/activation_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/activation_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/activation_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/activation_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/activations.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/activation_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/activations.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/activations.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/art.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/activations.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/avgpool_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/art.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/avgpool_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/avgpool_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/batchnorm_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/avgpool_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/batchnorm_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/avgpool_layer_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/blas.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/batchnorm_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/blas.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/batchnorm_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/box.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/blas.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/box.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/blas.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/captcha.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/blas_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/cifar.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/box.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/classifier.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/box.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/classifier.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/captcha.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/coco.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/cifar.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/col2im.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/classifier.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/col2im.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/classifier.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/compare.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/coco.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/connected_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/col2im.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/connected_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/col2im.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/convolutional_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/col2im_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/convolutional_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/compare.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/cost_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/connected_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/cost_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/connected_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/crnn_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/convolutional_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/crnn_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/convolutional_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/crop_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/convolutional_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/crop_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/cost_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/cuda.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/cost_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/cuda.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/crnn_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/darknet.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/crnn_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/data.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/crop_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/data.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/crop_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/deconvolutional_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/crop_layer_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/deconvolutional_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/cuda.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/demo.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/cuda.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/demo.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/darknet.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/detection_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/darknet.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/detection_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/data.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/detector.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/data.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/dice.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/deconvolutional_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/dropout_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/deconvolutional_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/dropout_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/deconvolutional_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/gemm.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/demo.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/gemm.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/demo.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/go.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/detection_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/gru_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/detection_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/gru_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/detector.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/im2col.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/dice.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/im2col.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/dropout_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/image.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/dropout_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/image.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/dropout_layer_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/gemm.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/gemm.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/list.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/go.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/list.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/gru_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/local_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/gru_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/local_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/im2col.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/matrix.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/im2col.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/matrix.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/im2col_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/maxpool_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/image.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/maxpool_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/image.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/network.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/network.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/nightmare.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/list.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/normalization_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/list.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/normalization_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/local_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/option_list.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/local_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/option_list.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/matrix.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/parser.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/matrix.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/parser.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/maxpool_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/region_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/maxpool_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/region_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/maxpool_layer_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/reorg_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/network.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/reorg_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/network.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/rnn.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/network_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/rnn_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/nightmare.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/rnn_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/normalization_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/rnn_vid.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/normalization_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/route_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/option_list.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/route_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/option_list.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/shortcut_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/parser.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/shortcut_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/parser.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/softmax_layer.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/region_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/softmax_layer.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/region_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/super.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/reorg_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/swag.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/reorg_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/tag.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/rnn.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/tree.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/rnn_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/tree.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/rnn_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/utils.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/rnn_vid.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/utils.h">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/round.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/voxel.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/round.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/writing.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/route_layer.c">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/src/yolo.c">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/route_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/Users/Don/Documents/Projects/darknetmain/darknet/CMakeLists.txt">
+		<Unit filename="/home/don/Documents/Projects/darknet/src/shortcut_layer.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/shortcut_layer.h">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/softmax_layer.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/softmax_layer.h">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/super.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/swag.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/tag.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/tree.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/tree.h">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/utils.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/utils.h">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/voxel.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/writing.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/src/yolo.c">
+			<Option target="darknet"/>
+		</Unit>
+		<Unit filename="/home/don/Documents/Projects/darknet/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/Don/Documents/Projects/darknetmain/darknet
+/home/don/Applications/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/don/Documents/Projects/darknet
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/Don/Documents/Projects/darknetmain/darknet/cmake-build-debug
+-- Build files have been written to: /home/don/Documents/Projects/darknet/cmake-build-debug

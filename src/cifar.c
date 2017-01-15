@@ -5,6 +5,7 @@
 #include "blas.h"
 
 #ifdef OPENCV
+#include "round.h"
 #include "opencv2/highgui/highgui_c.h"
 #endif
 

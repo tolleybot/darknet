@@ -11,7 +11,6 @@
 
 #define FRAMES 3
 
-#define OPENCV
 
 #ifdef OPENCV
 #include "opencv2/highgui/highgui_c.h"
