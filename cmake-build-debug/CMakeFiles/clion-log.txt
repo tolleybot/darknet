@@ -1,4 +1,8 @@
 /home/don/Applications/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/don/Documents/Projects/darknet
+CMake Warning at CMakeLists.txt:22 (MESSAGE):
+  NOT using GPU
+
+
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/don/Documents/Projects/darknet/cmake-build-debug

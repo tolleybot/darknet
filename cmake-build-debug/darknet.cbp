@@ -48,8 +48,6 @@
 					<Add option="-DOPENCV"/>
 					<Add option="-DHAVE_OPENCV_VIDEOIO"/>
 					<Add option="-DHAVE_OPENCV_IMGCODECS"/>
-					<Add option="-DGPU"/>
-					<Add option="-DCUDN"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/cuda/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
@@ -78,8 +76,6 @@
 					<Add option="-DOPENCV"/>
 					<Add option="-DHAVE_OPENCV_VIDEOIO"/>
 					<Add option="-DHAVE_OPENCV_IMGCODECS"/>
-					<Add option="-DGPU"/>
-					<Add option="-DCUDN"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/cuda/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
@@ -98,9 +94,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/activation_kernels.cu">
-			<Option target="darknet"/>
-		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/activation_layer.c">
 			<Option target="darknet"/>
 		</Unit>
@@ -122,9 +115,6 @@
 		<Unit filename="/home/don/Documents/Projects/darknet/src/avgpool_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/avgpool_layer_kernels.cu">
-			<Option target="darknet"/>
-		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/batchnorm_layer.c">
 			<Option target="darknet"/>
 		</Unit>
@@ -135,9 +125,6 @@
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/blas.h">
-			<Option target="darknet"/>
-		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/blas_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/box.c">
@@ -167,9 +154,6 @@
 		<Unit filename="/home/don/Documents/Projects/darknet/src/col2im.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/col2im_kernels.cu">
-			<Option target="darknet"/>
-		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/compare.c">
 			<Option target="darknet"/>
 		</Unit>
@@ -177,9 +161,6 @@
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/connected_layer.h">
-			<Option target="darknet"/>
-		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/convolutional_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/convolutional_layer.c">
@@ -206,9 +187,6 @@
 		<Unit filename="/home/don/Documents/Projects/darknet/src/crop_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/crop_layer_kernels.cu">
-			<Option target="darknet"/>
-		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/cuda.c">
 			<Option target="darknet"/>
 		</Unit>
@@ -225,9 +203,6 @@
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/data.h">
-			<Option target="darknet"/>
-		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/deconvolutional_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/deconvolutional_layer.c">
@@ -260,9 +235,6 @@
 		<Unit filename="/home/don/Documents/Projects/darknet/src/dropout_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/dropout_layer_kernels.cu">
-			<Option target="darknet"/>
-		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/gemm.c">
 			<Option target="darknet"/>
 		</Unit>
@@ -282,9 +254,6 @@
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/im2col.h">
-			<Option target="darknet"/>
-		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/im2col_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/image.c">
@@ -323,16 +292,10 @@
 		<Unit filename="/home/don/Documents/Projects/darknet/src/maxpool_layer.h">
 			<Option target="darknet"/>
 		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/maxpool_layer_kernels.cu">
-			<Option target="darknet"/>
-		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/network.c">
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/network.h">
-			<Option target="darknet"/>
-		</Unit>
-		<Unit filename="/home/don/Documents/Projects/darknet/src/network_kernels.cu">
 			<Option target="darknet"/>
 		</Unit>
 		<Unit filename="/home/don/Documents/Projects/darknet/src/nightmare.c">

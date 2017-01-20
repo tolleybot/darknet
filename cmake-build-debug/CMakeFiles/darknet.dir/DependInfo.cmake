@@ -68,9 +68,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "CUDN"
   "DEBUG"
-  "GPU"
   "HAVE_OPENCV_IMGCODECS"
   "HAVE_OPENCV_VIDEOIO"
   "OPENCV"
