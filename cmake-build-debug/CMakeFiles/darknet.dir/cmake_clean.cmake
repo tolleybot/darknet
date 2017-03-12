@@ -34,6 +34,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/darknet.dir/src/layer.c.o"
   "CMakeFiles/darknet.dir/src/list.c.o"
   "CMakeFiles/darknet.dir/src/local_layer.c.o"
+  "CMakeFiles/darknet.dir/src/lstm_layer.c.o"
   "CMakeFiles/darknet.dir/src/matrix.c.o"
   "CMakeFiles/darknet.dir/src/maxpool_layer.c.o"
   "CMakeFiles/darknet.dir/src/network.c.o"
@@ -58,8 +59,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/darknet.dir/src/voxel.c.o"
   "CMakeFiles/darknet.dir/src/writing.c.o"
   "CMakeFiles/darknet.dir/src/yolo.c.o"
-  "/home/don/Documents/Projects/bin/darknet.pdb"
-  "/home/don/Documents/Projects/bin/darknet"
+  "/home/don/Documents/Projects/lib/libdarknet.pdb"
+  "/home/don/Documents/Projects/lib/libdarknet.a"
 )
 
 # Per-language clean rules from dependency scanning.

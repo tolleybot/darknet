@@ -43,11 +43,13 @@ FILE(GLOB CUDA_SOURCE_FILES "src/*.cu")
 
 #add_library(darknet ${SOURCE_FILES})
 if(USE_GPU)
-    cuda_add_executable(darknet ${SOURCE_FILES} ${CUDA_SOURCE_FILES})
+    #cuda_add_executable(darknet ${SOURCE_FILES} ${CUDA_SOURCE_FILES})
+    cuda_add_library(darknet ${SOURCE_FILES} ${CUDA_SOURCE_FILES})
 
     set(CUDA_LIBS cuda cudart cublas curand cudnn)
 else()
-    add_executable(darknet ${SOURCE_FILES})
+    #add_executable(darknet ${SOURCE_FILES})
+    add_library(darknet ${SOURCE_FILES})
 endif()
 
 LIST(APPEND CMAKE_CXX_FLAGS "-Wall -Wfatal-errors")

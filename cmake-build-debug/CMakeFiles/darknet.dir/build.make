@@ -897,9 +897,33 @@ CMakeFiles/darknet.dir/src/local_layer.c.o.provides: CMakeFiles/darknet.dir/src/
 CMakeFiles/darknet.dir/src/local_layer.c.o.provides.build: CMakeFiles/darknet.dir/src/local_layer.c.o
 
 
+CMakeFiles/darknet.dir/src/lstm_layer.c.o: CMakeFiles/darknet.dir/flags.make
+CMakeFiles/darknet.dir/src/lstm_layer.c.o: ../src/lstm_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/darknet.dir/src/lstm_layer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/lstm_layer.c.o   -c /home/don/Documents/Projects/darknet/src/lstm_layer.c
+
+CMakeFiles/darknet.dir/src/lstm_layer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknet.dir/src/lstm_layer.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/don/Documents/Projects/darknet/src/lstm_layer.c > CMakeFiles/darknet.dir/src/lstm_layer.c.i
+
+CMakeFiles/darknet.dir/src/lstm_layer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknet.dir/src/lstm_layer.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/don/Documents/Projects/darknet/src/lstm_layer.c -o CMakeFiles/darknet.dir/src/lstm_layer.c.s
+
+CMakeFiles/darknet.dir/src/lstm_layer.c.o.requires:
+
+.PHONY : CMakeFiles/darknet.dir/src/lstm_layer.c.o.requires
+
+CMakeFiles/darknet.dir/src/lstm_layer.c.o.provides: CMakeFiles/darknet.dir/src/lstm_layer.c.o.requires
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/lstm_layer.c.o.provides.build
+.PHONY : CMakeFiles/darknet.dir/src/lstm_layer.c.o.provides
+
+CMakeFiles/darknet.dir/src/lstm_layer.c.o.provides.build: CMakeFiles/darknet.dir/src/lstm_layer.c.o
+
+
 CMakeFiles/darknet.dir/src/matrix.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/matrix.c.o: ../src/matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/darknet.dir/src/matrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/darknet.dir/src/matrix.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/matrix.c.o   -c /home/don/Documents/Projects/darknet/src/matrix.c
 
 CMakeFiles/darknet.dir/src/matrix.c.i: cmake_force
@@ -923,7 +947,7 @@ CMakeFiles/darknet.dir/src/matrix.c.o.provides.build: CMakeFiles/darknet.dir/src
 
 CMakeFiles/darknet.dir/src/maxpool_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/maxpool_layer.c.o: ../src/maxpool_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/darknet.dir/src/maxpool_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/darknet.dir/src/maxpool_layer.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/maxpool_layer.c.o   -c /home/don/Documents/Projects/darknet/src/maxpool_layer.c
 
 CMakeFiles/darknet.dir/src/maxpool_layer.c.i: cmake_force
@@ -947,7 +971,7 @@ CMakeFiles/darknet.dir/src/maxpool_layer.c.o.provides.build: CMakeFiles/darknet.
 
 CMakeFiles/darknet.dir/src/network.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/network.c.o: ../src/network.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/darknet.dir/src/network.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/darknet.dir/src/network.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/network.c.o   -c /home/don/Documents/Projects/darknet/src/network.c
 
 CMakeFiles/darknet.dir/src/network.c.i: cmake_force
@@ -971,7 +995,7 @@ CMakeFiles/darknet.dir/src/network.c.o.provides.build: CMakeFiles/darknet.dir/sr
 
 CMakeFiles/darknet.dir/src/nightmare.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/nightmare.c.o: ../src/nightmare.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/darknet.dir/src/nightmare.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/darknet.dir/src/nightmare.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/nightmare.c.o   -c /home/don/Documents/Projects/darknet/src/nightmare.c
 
 CMakeFiles/darknet.dir/src/nightmare.c.i: cmake_force
@@ -995,7 +1019,7 @@ CMakeFiles/darknet.dir/src/nightmare.c.o.provides.build: CMakeFiles/darknet.dir/
 
 CMakeFiles/darknet.dir/src/normalization_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/normalization_layer.c.o: ../src/normalization_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/darknet.dir/src/normalization_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/darknet.dir/src/normalization_layer.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/normalization_layer.c.o   -c /home/don/Documents/Projects/darknet/src/normalization_layer.c
 
 CMakeFiles/darknet.dir/src/normalization_layer.c.i: cmake_force
@@ -1019,7 +1043,7 @@ CMakeFiles/darknet.dir/src/normalization_layer.c.o.provides.build: CMakeFiles/da
 
 CMakeFiles/darknet.dir/src/option_list.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/option_list.c.o: ../src/option_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/darknet.dir/src/option_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/darknet.dir/src/option_list.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/option_list.c.o   -c /home/don/Documents/Projects/darknet/src/option_list.c
 
 CMakeFiles/darknet.dir/src/option_list.c.i: cmake_force
@@ -1043,7 +1067,7 @@ CMakeFiles/darknet.dir/src/option_list.c.o.provides.build: CMakeFiles/darknet.di
 
 CMakeFiles/darknet.dir/src/parser.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/parser.c.o: ../src/parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/darknet.dir/src/parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/darknet.dir/src/parser.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/parser.c.o   -c /home/don/Documents/Projects/darknet/src/parser.c
 
 CMakeFiles/darknet.dir/src/parser.c.i: cmake_force
@@ -1067,7 +1091,7 @@ CMakeFiles/darknet.dir/src/parser.c.o.provides.build: CMakeFiles/darknet.dir/src
 
 CMakeFiles/darknet.dir/src/region_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/region_layer.c.o: ../src/region_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/darknet.dir/src/region_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/darknet.dir/src/region_layer.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/region_layer.c.o   -c /home/don/Documents/Projects/darknet/src/region_layer.c
 
 CMakeFiles/darknet.dir/src/region_layer.c.i: cmake_force
@@ -1091,7 +1115,7 @@ CMakeFiles/darknet.dir/src/region_layer.c.o.provides.build: CMakeFiles/darknet.d
 
 CMakeFiles/darknet.dir/src/reorg_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/reorg_layer.c.o: ../src/reorg_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/darknet.dir/src/reorg_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/darknet.dir/src/reorg_layer.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/reorg_layer.c.o   -c /home/don/Documents/Projects/darknet/src/reorg_layer.c
 
 CMakeFiles/darknet.dir/src/reorg_layer.c.i: cmake_force
@@ -1115,7 +1139,7 @@ CMakeFiles/darknet.dir/src/reorg_layer.c.o.provides.build: CMakeFiles/darknet.di
 
 CMakeFiles/darknet.dir/src/rnn.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/rnn.c.o: ../src/rnn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/darknet.dir/src/rnn.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/darknet.dir/src/rnn.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/rnn.c.o   -c /home/don/Documents/Projects/darknet/src/rnn.c
 
 CMakeFiles/darknet.dir/src/rnn.c.i: cmake_force
@@ -1139,7 +1163,7 @@ CMakeFiles/darknet.dir/src/rnn.c.o.provides.build: CMakeFiles/darknet.dir/src/rn
 
 CMakeFiles/darknet.dir/src/rnn_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/rnn_layer.c.o: ../src/rnn_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/darknet.dir/src/rnn_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/darknet.dir/src/rnn_layer.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/rnn_layer.c.o   -c /home/don/Documents/Projects/darknet/src/rnn_layer.c
 
 CMakeFiles/darknet.dir/src/rnn_layer.c.i: cmake_force
@@ -1163,7 +1187,7 @@ CMakeFiles/darknet.dir/src/rnn_layer.c.o.provides.build: CMakeFiles/darknet.dir/
 
 CMakeFiles/darknet.dir/src/rnn_vid.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/rnn_vid.c.o: ../src/rnn_vid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/darknet.dir/src/rnn_vid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/darknet.dir/src/rnn_vid.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/rnn_vid.c.o   -c /home/don/Documents/Projects/darknet/src/rnn_vid.c
 
 CMakeFiles/darknet.dir/src/rnn_vid.c.i: cmake_force
@@ -1187,7 +1211,7 @@ CMakeFiles/darknet.dir/src/rnn_vid.c.o.provides.build: CMakeFiles/darknet.dir/sr
 
 CMakeFiles/darknet.dir/src/round.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/round.c.o: ../src/round.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/darknet.dir/src/round.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/darknet.dir/src/round.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/round.c.o   -c /home/don/Documents/Projects/darknet/src/round.c
 
 CMakeFiles/darknet.dir/src/round.c.i: cmake_force
@@ -1211,7 +1235,7 @@ CMakeFiles/darknet.dir/src/round.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/route_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/route_layer.c.o: ../src/route_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/darknet.dir/src/route_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/darknet.dir/src/route_layer.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/route_layer.c.o   -c /home/don/Documents/Projects/darknet/src/route_layer.c
 
 CMakeFiles/darknet.dir/src/route_layer.c.i: cmake_force
@@ -1235,7 +1259,7 @@ CMakeFiles/darknet.dir/src/route_layer.c.o.provides.build: CMakeFiles/darknet.di
 
 CMakeFiles/darknet.dir/src/shortcut_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/shortcut_layer.c.o: ../src/shortcut_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/darknet.dir/src/shortcut_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/darknet.dir/src/shortcut_layer.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/shortcut_layer.c.o   -c /home/don/Documents/Projects/darknet/src/shortcut_layer.c
 
 CMakeFiles/darknet.dir/src/shortcut_layer.c.i: cmake_force
@@ -1259,7 +1283,7 @@ CMakeFiles/darknet.dir/src/shortcut_layer.c.o.provides.build: CMakeFiles/darknet
 
 CMakeFiles/darknet.dir/src/softmax_layer.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/softmax_layer.c.o: ../src/softmax_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/darknet.dir/src/softmax_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/darknet.dir/src/softmax_layer.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/softmax_layer.c.o   -c /home/don/Documents/Projects/darknet/src/softmax_layer.c
 
 CMakeFiles/darknet.dir/src/softmax_layer.c.i: cmake_force
@@ -1283,7 +1307,7 @@ CMakeFiles/darknet.dir/src/softmax_layer.c.o.provides.build: CMakeFiles/darknet.
 
 CMakeFiles/darknet.dir/src/super.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/super.c.o: ../src/super.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/darknet.dir/src/super.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/darknet.dir/src/super.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/super.c.o   -c /home/don/Documents/Projects/darknet/src/super.c
 
 CMakeFiles/darknet.dir/src/super.c.i: cmake_force
@@ -1307,7 +1331,7 @@ CMakeFiles/darknet.dir/src/super.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/swag.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/swag.c.o: ../src/swag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/darknet.dir/src/swag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/darknet.dir/src/swag.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/swag.c.o   -c /home/don/Documents/Projects/darknet/src/swag.c
 
 CMakeFiles/darknet.dir/src/swag.c.i: cmake_force
@@ -1331,7 +1355,7 @@ CMakeFiles/darknet.dir/src/swag.c.o.provides.build: CMakeFiles/darknet.dir/src/s
 
 CMakeFiles/darknet.dir/src/tag.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/tag.c.o: ../src/tag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/darknet.dir/src/tag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/darknet.dir/src/tag.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/tag.c.o   -c /home/don/Documents/Projects/darknet/src/tag.c
 
 CMakeFiles/darknet.dir/src/tag.c.i: cmake_force
@@ -1355,7 +1379,7 @@ CMakeFiles/darknet.dir/src/tag.c.o.provides.build: CMakeFiles/darknet.dir/src/ta
 
 CMakeFiles/darknet.dir/src/tree.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/tree.c.o: ../src/tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/darknet.dir/src/tree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/darknet.dir/src/tree.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/tree.c.o   -c /home/don/Documents/Projects/darknet/src/tree.c
 
 CMakeFiles/darknet.dir/src/tree.c.i: cmake_force
@@ -1379,7 +1403,7 @@ CMakeFiles/darknet.dir/src/tree.c.o.provides.build: CMakeFiles/darknet.dir/src/t
 
 CMakeFiles/darknet.dir/src/utils.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/utils.c.o: ../src/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/darknet.dir/src/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/darknet.dir/src/utils.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/utils.c.o   -c /home/don/Documents/Projects/darknet/src/utils.c
 
 CMakeFiles/darknet.dir/src/utils.c.i: cmake_force
@@ -1403,7 +1427,7 @@ CMakeFiles/darknet.dir/src/utils.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/voxel.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/voxel.c.o: ../src/voxel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/darknet.dir/src/voxel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/darknet.dir/src/voxel.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/voxel.c.o   -c /home/don/Documents/Projects/darknet/src/voxel.c
 
 CMakeFiles/darknet.dir/src/voxel.c.i: cmake_force
@@ -1427,7 +1451,7 @@ CMakeFiles/darknet.dir/src/voxel.c.o.provides.build: CMakeFiles/darknet.dir/src/
 
 CMakeFiles/darknet.dir/src/writing.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/writing.c.o: ../src/writing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/darknet.dir/src/writing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/darknet.dir/src/writing.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/writing.c.o   -c /home/don/Documents/Projects/darknet/src/writing.c
 
 CMakeFiles/darknet.dir/src/writing.c.i: cmake_force
@@ -1451,7 +1475,7 @@ CMakeFiles/darknet.dir/src/writing.c.o.provides.build: CMakeFiles/darknet.dir/sr
 
 CMakeFiles/darknet.dir/src/yolo.c.o: CMakeFiles/darknet.dir/flags.make
 CMakeFiles/darknet.dir/src/yolo.c.o: ../src/yolo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/darknet.dir/src/yolo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/darknet.dir/src/yolo.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet.dir/src/yolo.c.o   -c /home/don/Documents/Projects/darknet/src/yolo.c
 
 CMakeFiles/darknet.dir/src/yolo.c.i: cmake_force
@@ -1510,6 +1534,7 @@ darknet_OBJECTS = \
 "CMakeFiles/darknet.dir/src/layer.c.o" \
 "CMakeFiles/darknet.dir/src/list.c.o" \
 "CMakeFiles/darknet.dir/src/local_layer.c.o" \
+"CMakeFiles/darknet.dir/src/lstm_layer.c.o" \
 "CMakeFiles/darknet.dir/src/matrix.c.o" \
 "CMakeFiles/darknet.dir/src/maxpool_layer.c.o" \
 "CMakeFiles/darknet.dir/src/network.c.o" \
@@ -1538,72 +1563,74 @@ darknet_OBJECTS = \
 # External object files for target darknet
 darknet_EXTERNAL_OBJECTS =
 
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/activation_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/activations.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/art.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/avgpool_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/batchnorm_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/blas.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/box.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/captcha.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/cifar.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/classifier.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/coco.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/col2im.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/compare.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/connected_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/convolutional_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/cost_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/crnn_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/crop_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/cuda.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/darknet.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/data.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/demo.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/detection_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/detector.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/dice.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/dropout_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/gemm.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/go.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/gru_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/im2col.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/image.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/list.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/local_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/matrix.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/maxpool_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/network.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/nightmare.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/normalization_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/option_list.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/parser.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/region_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/reorg_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/rnn.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/rnn_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/rnn_vid.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/round.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/route_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/shortcut_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/softmax_layer.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/super.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/swag.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/tag.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/tree.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/utils.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/voxel.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/writing.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/src/yolo.c.o
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/build.make
-/home/don/Documents/Projects/bin/darknet: CMakeFiles/darknet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking C executable /home/don/Documents/Projects/bin/darknet"
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/activation_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/activations.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/art.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/avgpool_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/batchnorm_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/blas.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/box.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/captcha.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/cifar.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/classifier.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/coco.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/col2im.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/compare.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/connected_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/convolutional_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/cost_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/crnn_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/crop_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/cuda.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/darknet.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/data.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/deconvolutional_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/demo.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/detection_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/detector.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/dice.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/dropout_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/gemm.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/go.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/gru_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/im2col.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/image.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/list.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/local_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/lstm_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/matrix.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/maxpool_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/network.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/nightmare.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/normalization_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/option_list.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/parser.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/region_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/reorg_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/rnn.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/rnn_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/rnn_vid.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/round.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/route_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/shortcut_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/softmax_layer.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/super.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/swag.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/tag.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/tree.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/utils.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/voxel.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/writing.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/src/yolo.c.o
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/build.make
+/home/don/Documents/Projects/lib/libdarknet.a: CMakeFiles/darknet.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking C static library /home/don/Documents/Projects/lib/libdarknet.a"
+	$(CMAKE_COMMAND) -P CMakeFiles/darknet.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/darknet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/darknet.dir/build: /home/don/Documents/Projects/bin/darknet
+CMakeFiles/darknet.dir/build: /home/don/Documents/Projects/lib/libdarknet.a
 
 .PHONY : CMakeFiles/darknet.dir/build
 
@@ -1642,6 +1669,7 @@ CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/image.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/list.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/local_layer.c.o.requires
+CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/lstm_layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/matrix.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/maxpool_layer.c.o.requires
 CMakeFiles/darknet.dir/requires: CMakeFiles/darknet.dir/src/network.c.o.requires

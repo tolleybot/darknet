@@ -296,8 +296,8 @@ ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 //Value Computed by CMake
 darknet_BINARY_DIR:STATIC=/home/don/Documents/Projects/darknet/cmake-build-debug
 
-//Dependencies for target
-darknet_LIB_DEPENDS:STATIC=
+//Dependencies for the target
+darknet_LIB_DEPENDS:STATIC=general;m;general;pthread;general;opencv_imgcodecs;general;opencv_imgproc;general;opencv_features2d;general;opencv_calib3d;general;opencv_core;general;opencv_highgui;general;opencv_videoio;general;opencv_objdetect;general;opencv_video;
 
 //Value Computed by CMake
 darknet_SOURCE_DIR:STATIC=/home/don/Documents/Projects/darknet

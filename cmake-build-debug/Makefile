@@ -1068,6 +1068,33 @@ src/local_layer.c.s:
 	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/local_layer.c.s
 .PHONY : src/local_layer.c.s
 
+src/lstm_layer.o: src/lstm_layer.c.o
+
+.PHONY : src/lstm_layer.o
+
+# target to build an object file
+src/lstm_layer.c.o:
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/lstm_layer.c.o
+.PHONY : src/lstm_layer.c.o
+
+src/lstm_layer.i: src/lstm_layer.c.i
+
+.PHONY : src/lstm_layer.i
+
+# target to preprocess a source file
+src/lstm_layer.c.i:
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/lstm_layer.c.i
+.PHONY : src/lstm_layer.c.i
+
+src/lstm_layer.s: src/lstm_layer.c.s
+
+.PHONY : src/lstm_layer.s
+
+# target to generate assembly for a file
+src/lstm_layer.c.s:
+	$(MAKE) -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/src/lstm_layer.c.s
+.PHONY : src/lstm_layer.c.s
+
 src/matrix.o: src/matrix.c.o
 
 .PHONY : src/matrix.o
@@ -1830,6 +1857,9 @@ help:
 	@echo "... src/local_layer.o"
 	@echo "... src/local_layer.i"
 	@echo "... src/local_layer.s"
+	@echo "... src/lstm_layer.o"
+	@echo "... src/lstm_layer.i"
+	@echo "... src/lstm_layer.s"
 	@echo "... src/matrix.o"
 	@echo "... src/matrix.i"
 	@echo "... src/matrix.s"

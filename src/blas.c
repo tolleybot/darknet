@@ -98,7 +98,7 @@ void mean_cpu(float *x, int batch, int filters, int spatial, float *mean)
 
 void variance_cpu(float *x, float *mean, int batch, int filters, int spatial, float *variance)
 {
-    float scale = 1./(batch * spatial - 1);
+    float scale = (batch > 1 ? 1./(batch * spatial - 1) : 1);
     int i,j,k;
     for(i = 0; i < filters; ++i){
         variance[i] = 0;
