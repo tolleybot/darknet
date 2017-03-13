@@ -1005,7 +1005,7 @@ void load_convolutional_weights(layer l, FILE *fp)
 }
 
 
-void load_weights_upto(network *net, char *filename, int cutoff)
+void load_weights_upto(network *net, const char *filename, int cutoff)
 {
 #ifdef GPU
     if(net->gpu_index >= 0){
@@ -1073,7 +1073,7 @@ void load_weights_upto(network *net, char *filename, int cutoff)
     fclose(fp);
 }
 
-void load_weights(network *net, char *filename)
+void load_weights(network *net, const char *filename)
 {
     load_weights_upto(net, filename, net->n);
 }

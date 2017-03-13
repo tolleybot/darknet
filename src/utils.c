@@ -113,18 +113,18 @@ char *find_char_arg(int argc, char **argv, char *arg, char *def)
 }
 
 
-char *basecfg(char *cfgfile)
+char *basecfg(const  char *cfgfile)
 {
-    char *c = cfgfile;
+    const  char *c = cfgfile;
     char *next;
     while((next = strchr(c, '/')))
     {
         c = next+1;
     }
-    c = copy_string(c);
-    next = strchr(c, '.');
+    char* c_cpy = copy_string(c);
+    next = strchr(c_cpy, '.');
     if (next) *next = 0;
-    return c;
+    return c_cpy;
 }
 
 int alphanum_to_int(char c)
@@ -200,7 +200,7 @@ void malloc_error()
     exit(-1);
 }
 
-void file_error(char *s)
+void file_error(const char *s)
 {
     fprintf(stderr, "Couldn't open file: %s\n", s);
     exit(0);
@@ -342,7 +342,7 @@ void write_all(int fd, char *buffer, size_t bytes)
 }
 
 
-char *copy_string(char *s)
+char *copy_string(const char *s)
 {
     char *copy = malloc(strlen(s)+1);
     strncpy(copy, s, strlen(s)+1);

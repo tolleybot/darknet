@@ -9,7 +9,7 @@
 
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
-list *get_paths(char *filename)
+list *get_paths(const char *filename)
 {
     char *path;
     FILE *file = fopen(filename, "r");
@@ -469,7 +469,7 @@ matrix load_tags_paths(char **paths, int n, int k)
     return y;
 }
 
-char **get_labels(char *filename)
+char **get_labels(const char *filename)
 {
     list *plist = get_paths(filename);
     char **labels = (char **)list_to_array(plist);
