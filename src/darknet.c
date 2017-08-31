@@ -350,6 +350,7 @@ void visualize(char *cfgfile, char *weightfile)
 #endif
 }
 
+#if _ISEXE_
 int main(int argc, char **argv)
 {
     //test_resize("data/bad.jpg");
@@ -449,4 +450,6 @@ int main(int argc, char **argv)
     }
     return 0;
 }
+
+#endif
 
