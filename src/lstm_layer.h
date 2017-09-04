@@ -4,20 +4,18 @@
 #include "activations.h"
 #include "layer.h"
 #include "network.h"
+#define USET
 
+layer make_lstm_layer(int batch, int inputs, int outputs, int steps, int batch_normalize, int adam);
 
-layer make_lstm_layer(int batch, int inputs, int hidden, int outputs, int steps, ACTIVATION activation, int batch_normalize, int log);
-
-void forward_lstm_layer(layer l, network_state state);
-void backward_lstm_layer(layer l, network_state state);
-void update_lstm_layer(layer l, int batch, float learning_rate, float momentum, float decay);
+void forward_lstm_layer(layer l, network net); 
+void update_lstm_layer(layer l, update_args a);
 
 #ifdef GPU
-void forward_lstm_layer_gpu(layer l, network_state state);
-void backward_lstm_layer_gpu(layer l, network_state state);
-void update_lstm_layer_gpu(layer l, int batch, float learning_rate, float momentum, float decay);
-void push_lstm_layer(layer l);
-void pull_lstm_layer(layer l);
-#endif
+void forward_lstm_layer_gpu(layer l, network net);
+void backward_lstm_layer_gpu(layer l, network net);
+void update_lstm_layer_gpu(layer l, update_args a); 
 
 #endif
+#endif
+

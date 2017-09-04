@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.6)
 
 project(darknet)
 
-set(USE_GPU 0)
+set(USE_GPU 1)
 
 add_definitions(-DDEBUG -DOPENCV -DHAVE_OPENCV_VIDEOIO -DHAVE_OPENCV_IMGCODECS)
 
@@ -29,7 +29,8 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../bin)
 set(DARKNET_LIB ${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
 
-set(INCLUDE_DIR /usr/local/include
+set(INCLUDE_DIR include/
+        /usr/local/include
         /usr/local/cuda/include)
 
 include_directories(${INCLUDE_DIR})
@@ -38,7 +39,7 @@ include_directories(${INCLUDE_DIR})
 link_directories(/usr/local/lib
         /usr/local/cuda/lib64)
 
-FILE(GLOB SOURCE_FILES "src/*.c" "src/*.cpp")
+FILE(GLOB SOURCE_FILES "src/*.c" "src/*.cpp" "src/*.h")
 FILE(GLOB CUDA_SOURCE_FILES "src/*.cu")
 
 #add_library(darknet ${SOURCE_FILES})

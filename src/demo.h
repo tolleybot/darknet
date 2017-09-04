@@ -1,7 +1,8 @@
-#ifndef DEMO
-#define DEMO
+#ifndef DEMO_H
+#define DEMO_H
 
 #include "image.h"
-void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const char *filename,const char **names, int classes, int frame_skip, char *prefix, float hier_thresh);
+
+void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const char *filename, char **names, int classes, int delay, char *prefix, int avg_frames, float hier, int w, int h, int frames, int fullscreen);
 
 #endif

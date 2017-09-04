@@ -1,3 +1,4 @@
+#include "darknet.h"
 #include "activations.h"
 
 #include <math.h>

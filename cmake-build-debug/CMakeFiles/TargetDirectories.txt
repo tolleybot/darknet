@@ -1,3 +1,0 @@
-/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/don/Documents/Projects/darknet/cmake-build-debug/CMakeFiles/darknet.dir
