@@ -37,7 +37,7 @@ typedef struct{
     list *options;
 }section;
 
-list *read_cfg(char *filename);
+list *read_cfg(const char *filename);
 
 LAYER_TYPE string_to_layer_type(char * type)
 {
@@ -763,7 +763,7 @@ network parse_network_cfg(char *filename)
     return net;
 }
 
-list *read_cfg(char *filename)
+list *read_cfg(const char *filename)
 {
     FILE *file = fopen(filename, "r");
     if(file == 0) file_error(filename);

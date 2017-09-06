@@ -571,8 +571,8 @@ typedef struct list{
 } list;
 
 pthread_t load_data(load_args args);
-list *read_data_cfg(char *filename);
-list *read_cfg(char *filename);
+list *read_data_cfg(const char *filename);
+list *read_cfg(const char *filename);
 
 void forward_network(network net);
 void backward_network(network net);
