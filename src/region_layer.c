@@ -361,7 +361,14 @@ void correct_region_boxes(box *boxes, int n, int w, int h, int netw, int neth, i
     }
 }
 
-void get_region_boxes(layer l, int w, int h, int netw, int neth, float thresh, float **probs, box *boxes, float **masks, int only_objectness, int *map, float tree_thresh, int relative)
+void get_region_boxes(layer l, int w, int h, int netw, int neth, float thresh, float **probs, box *boxes,
+                      float **masks, int only_objectness, int *map, float tree_thresh, int relative)
+{
+    get_region_boxes_ex(l,  w,  h,  netw, neth, thresh, probs,boxes,masks,only_objectness,map,tree_thresh,relative,0);
+}
+
+void get_region_boxes_ex(layer l, int w, int h, int netw, int neth, float thresh, float **probs, box *boxes,
+                      float **masks, int only_objectness, int *map, float tree_thresh, int relative, int batch)
 {
     int i,j,n,z;
     float *predictions = l.output;
@@ -396,9 +403,9 @@ void get_region_boxes(layer l, int w, int h, int netw, int neth, float thresh, f
             for(j = 0; j < l.classes; ++j){
                 probs[index][j] = 0;
             }
-            int obj_index  = entry_index(l, 0, n*l.w*l.h + i, l.coords);
-            int box_index  = entry_index(l, 0, n*l.w*l.h + i, 0);
-            int mask_index = entry_index(l, 0, n*l.w*l.h + i, 4);
+            int obj_index  = entry_index(l, batch, n*l.w*l.h + i, l.coords);
+            int box_index  = entry_index(l, batch, n*l.w*l.h + i, 0);
+            int mask_index = entry_index(l, batch, n*l.w*l.h + i, 4);
             float scale = l.background ? 1 : predictions[obj_index];
             boxes[index] = get_region_box(predictions, l.biases, n, box_index, col, row, l.w, l.h, l.w*l.h);
             if(masks){
@@ -407,13 +414,13 @@ void get_region_boxes(layer l, int w, int h, int netw, int neth, float thresh, f
                 }
             }
 
-            int class_index = entry_index(l, 0, n*l.w*l.h + i, l.coords + !l.background);
+            int class_index = entry_index(l, batch, n*l.w*l.h + i, l.coords + !l.background);
             if(l.softmax_tree){
 
                 hierarchy_predictions(predictions + class_index, l.classes, l.softmax_tree, 0, l.w*l.h);
                 if(map){
                     for(j = 0; j < 200; ++j){
-                        int class_index = entry_index(l, 0, n*l.w*l.h + i, l.coords + 1 + map[j]);
+                        int class_index = entry_index(l, batch, n*l.w*l.h + i, l.coords + 1 + map[j]);
                         float prob = scale*predictions[class_index];
                         probs[index][j] = (prob > thresh) ? prob : 0;
                     }
@@ -425,7 +432,7 @@ void get_region_boxes(layer l, int w, int h, int netw, int neth, float thresh, f
             } else {
                 float max = 0;
                 for(j = 0; j < l.classes; ++j){
-                    int class_index = entry_index(l, 0, n*l.w*l.h + i, l.coords + 1 + j);
+                    int class_index = entry_index(l, batch, n*l.w*l.h + i, l.coords + 1 + j);
                     float prob = scale*predictions[class_index];
                     probs[index][j] = (prob > thresh) ? prob : 0;
                     if(prob > max) max = prob;
