@@ -637,6 +637,7 @@ void get_detection_boxes(layer l, int w, int h, float thresh, float **probs, box
 char *option_find_str(list *l, char *key, char *def);
 int option_find_int(list *l, char *key, int def);
 
+void parse_network_cfg_ex(char* filename, network* net);
 network parse_network_cfg(char *filename);
 void save_weights(network net, char *filename);
 void load_weights(network *net,const char *filename);
