@@ -4,7 +4,7 @@ project(darknet)
 
 set(USE_GPU 1)
 
-add_definitions(-DDEBUG -DOPENCV -DHAVE_OPENCV_VIDEOIO -DHAVE_OPENCV_IMGCODECS)
+add_definitions(-DDEBUG)
 
 if (USE_GPU)
 MESSAGE(WARNING "Using GPU")
@@ -44,12 +44,12 @@ FILE(GLOB CUDA_SOURCE_FILES "src/*.cu")
 #add_library(darknet SHARED ${SOURCE_FILES})
 if(USE_GPU)
     #cuda_add_executable(darknet ${SOURCE_FILES} ${CUDA_SOURCE_FILES})
-    cuda_add_library(darknet SHARED ${SOURCE_FILES} ${CUDA_SOURCE_FILES})
+    cuda_add_library(darknet  ${SOURCE_FILES} ${CUDA_SOURCE_FILES})
 
     set(CUDA_LIBS cuda cudart cublas curand cudnn)
 else()
     #add_executable(darknet ${SOURCE_FILES})
-    add_library(darkne SHARED ${SOURCE_FILES})
+    add_library(darknet  ${SOURCE_FILES})
 endif()
 
 LIST(APPEND CMAKE_CXX_FLAGS "-Wall -Wfatal-errors")
@@ -58,14 +58,5 @@ LIST(APPEND CMAKE_CXX_FLAGS "-Wall -Wfatal-errors")
 target_link_libraries(darknet
         m
         pthread
-        opencv_imgcodecs
-        opencv_imgproc
-        opencv_features2d
-        opencv_calib3d
-        opencv_core
-        opencv_highgui
-        opencv_videoio
-        opencv_objdetect
-        opencv_video
         ${CUDA_LIBS}
         )
